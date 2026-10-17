@@ -1,25 +1,30 @@
-cff-version: 1.0.0
-message: "Please cite the reproducibility package and the associated manuscript when using these research artifacts."
+cff-version: 1.2.0
+
+message: "Please cite this reproducibility package and the associated manuscript when using these research artifacts."
+
 type: software
-<<<<<<< Updated upstream
-=======
-version: "1.0.0"
+
+version: "1.0.1"
+
 license: MIT
->>>>>>> Stashed changes
+
 title: "Reproducibility package for lightweight adaptive edge-cloud inference placement under dynamic runtime conditions"
+
 authors:
   - family-names: Alyasari
     given-names: Mohammed Saad Obaid
+
   - family-names: Al-Khafaji
     given-names: Hamza Mohammed Ridha
+
   - family-names: Junoh
     given-names: Suhardi Azliy
+
 repository-code: "https://github.com/mohammedsaadalyasari-afk/adaptive-edge-cloud-inference-placement"
+
 keywords:
   - edge-cloud computing
   - IoT inference
   - adaptive inference placement
   - reproducibility
   - smart parking
-# Before public release, confirm software/data contributor attribution with all authors.
-# Add DOI here only after the new Zenodo release is archived.
