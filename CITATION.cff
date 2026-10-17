@@ -1,6 +1,6 @@
-cff-version: 1.2.0
+cff-version: 1.0.0
 message: "Please cite the reproducibility package and the associated manuscript when using these research artifacts."
-type: dataset
+type: software
 title: "Reproducibility package for lightweight adaptive edge-cloud inference placement under dynamic runtime conditions"
 authors:
   - family-names: Alyasari
