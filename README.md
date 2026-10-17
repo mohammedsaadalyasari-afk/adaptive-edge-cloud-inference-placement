@@ -76,4 +76,16 @@ See [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md). The original experimen
 
 ## Citation and reuse
 
-Please cite this reproducibility package using [`CITATION.cff`](CITATION.cff). A permanent archive DOI will be added here after the first public release is deposited in Zenodo. **License terms and contributor metadata must be confirmed before making this repository public.**
+Please cite this reproducibility package using [`CITATION.cff`](CITATION.cff). A permanent archive DOI will be added here after the first public release is deposited in Zenodo. The source code is under the MIT License; the original research data, model artifacts, generated tables, and documentation are under CC BY 4.0. See the licensing terms below. Confirm rights for any third-party components before redistributing.
+
+
+## Licenses
+
+This repository uses two licenses with different scopes:
+
+| Material | License | Where to read the terms |
+| --- | --- | --- |
+| Original software source: Python (`*.py`), Node-RED flows (`nodered/*.json`), other executable/controller configurations | MIT License | [`LICENSE`](LICENSE) |
+| Original experimental data and traces (`data/`), derived analytical tables and logs (`results/`, non-code files under `analysis/` and `protocol/`), model and feature metadata (`model/`), and research documentation | Creative Commons Attribution 4.0 International (CC BY 4.0) | [`LICENSE-DATA.md`](LICENSE-DATA.md) |
+
+Third-party software, dependencies and services retain their own licenses. These grants cover original materials for which the authors have the necessary rights; they do not grant rights to any third-party materials not owned by the licensors. Please attribute reused data and research materials to the repository authors and cite the Zenodo DOI once available.
