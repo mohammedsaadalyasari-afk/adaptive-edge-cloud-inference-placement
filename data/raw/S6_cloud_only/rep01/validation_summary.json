@@ -1,0 +1,94 @@
+{
+  "scenario": "S6",
+  "validator_version": "final_matched_run_v1",
+  "logical_decisions": 289,
+  "published_rows": 1396,
+  "run_ids": [
+    "S6_2026-10-09T09-55-00-938Z"
+  ],
+  "decision_order_pass": true,
+  "selected_sites": {
+    "cloud": 289
+  },
+  "primary_sites": {
+    "cloud": 289
+  },
+  "final_sites": {
+    "cloud": 287,
+    "": 2
+  },
+  "successful_decisions": 287,
+  "failed_decisions": 2,
+  "success_rate_percent": 99.30795847750865,
+  "primary_failures": 2,
+  "fallbacks": 0,
+  "primary_failure_ids": [
+    285,
+    286
+  ],
+  "fallback_ids": [],
+  "failed_ids": [
+    285,
+    286
+  ],
+  "switches": 0,
+  "switch_reason_counts": {
+    "static_cloud_only": 289
+  },
+  "cost_edge_to_cloud": 0,
+  "cost_cloud_to_edge": 0,
+  "failure_related_switches": 0,
+  "probe_rows": 0,
+  "probe_successes": 0,
+  "probe_failures": 0,
+  "phase_counts": {
+    "L0_BASELINE": 40,
+    "L1_STABLE": 40,
+    "L2_ONSET": 40,
+    "L3_SATURATION": 50,
+    "L4_RECOVERY": 40,
+    "L5_REOVERLOAD": 40,
+    "L6_FINAL_RECOVERY": 39
+  },
+  "worker_target_counts": {
+    "0": 79,
+    "4": 80,
+    "6": 40,
+    "8": 90
+  },
+  "controller_event_counts": {
+    "controller_start": 1,
+    "phase_transition": 7,
+    "decision_applied": 289,
+    "controller_stop": 1
+  },
+  "prediction_checks": 287,
+  "prediction_mismatches": 0,
+  "model_sha_checks": 287,
+  "model_sha_mismatches": 0,
+  "total_latency_all": {
+    "n": 289,
+    "mean": 467.4798606952788,
+    "median": 417.3365940004587,
+    "p95": 764.7953159987933,
+    "p99": 1505.547039563656,
+    "max": 1852.404590010643
+  },
+  "total_latency_success": {
+    "n": 287,
+    "mean": 459.9474890276738,
+    "median": 417.13877099752426,
+    "p95": 743.1391308963298,
+    "p99": 1441.4796261027448,
+    "max": 1852.404590010643
+  },
+  "service_latency_success": {
+    "n": 287,
+    "mean": 162.92779000696865,
+    "median": 165.275253,
+    "p95": 207.4263921,
+    "p99": 266.89519613999994,
+    "max": 292.628717
+  },
+  "validation_errors": []
+}

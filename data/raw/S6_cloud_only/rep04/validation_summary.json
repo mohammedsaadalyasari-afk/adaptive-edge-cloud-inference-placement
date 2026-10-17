@@ -1,0 +1,118 @@
+{
+  "scenario": "S6",
+  "validator_version": "final_matched_run_v1",
+  "logical_decisions": 289,
+  "published_rows": 1396,
+  "run_ids": [
+    "S6_2026-10-09T11-15-43-675Z"
+  ],
+  "decision_order_pass": true,
+  "selected_sites": {
+    "cloud": 289
+  },
+  "primary_sites": {
+    "cloud": 289
+  },
+  "final_sites": {
+    "cloud": 275,
+    "": 14
+  },
+  "successful_decisions": 275,
+  "failed_decisions": 14,
+  "success_rate_percent": 95.15570934256056,
+  "primary_failures": 14,
+  "fallbacks": 0,
+  "primary_failure_ids": [
+    2,
+    3,
+    13,
+    45,
+    78,
+    79,
+    98,
+    195,
+    213,
+    216,
+    247,
+    255,
+    272,
+    276
+  ],
+  "fallback_ids": [],
+  "failed_ids": [
+    2,
+    3,
+    13,
+    45,
+    78,
+    79,
+    98,
+    195,
+    213,
+    216,
+    247,
+    255,
+    272,
+    276
+  ],
+  "switches": 0,
+  "switch_reason_counts": {
+    "static_cloud_only": 289
+  },
+  "cost_edge_to_cloud": 0,
+  "cost_cloud_to_edge": 0,
+  "failure_related_switches": 0,
+  "probe_rows": 0,
+  "probe_successes": 0,
+  "probe_failures": 0,
+  "phase_counts": {
+    "L0_BASELINE": 40,
+    "L1_STABLE": 40,
+    "L2_ONSET": 40,
+    "L3_SATURATION": 50,
+    "L4_RECOVERY": 40,
+    "L5_REOVERLOAD": 40,
+    "L6_FINAL_RECOVERY": 39
+  },
+  "worker_target_counts": {
+    "0": 79,
+    "4": 80,
+    "6": 40,
+    "8": 90
+  },
+  "controller_event_counts": {
+    "controller_start": 1,
+    "phase_transition": 7,
+    "decision_applied": 289,
+    "controller_stop": 1
+  },
+  "prediction_checks": 275,
+  "prediction_mismatches": 0,
+  "model_sha_checks": 275,
+  "model_sha_mismatches": 0,
+  "total_latency_all": {
+    "n": 289,
+    "mean": 604.0171491450092,
+    "median": 482.54204998910427,
+    "p95": 1480.3394471943384,
+    "p99": 1533.569196368456,
+    "max": 1849.7928730100393
+  },
+  "total_latency_success": {
+    "n": 275,
+    "mean": 555.8923270796104,
+    "median": 475.8166480064392,
+    "p95": 961.6114765003324,
+    "p99": 1293.4269441246986,
+    "max": 1487.6028839945793
+  },
+  "service_latency_success": {
+    "n": 275,
+    "mean": 161.84687513454546,
+    "median": 167.971648,
+    "p95": 209.8060043,
+    "p99": 214.39978936,
+    "max": 288.01452
+  },
+  "validation_errors": []
+}

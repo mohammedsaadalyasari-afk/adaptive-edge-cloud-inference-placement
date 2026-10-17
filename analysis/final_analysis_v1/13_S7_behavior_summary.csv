@@ -1,0 +1,2 @@
+n_runs,total_decisions,selected_edge_total,selected_cloud_total,selected_edge_pct_all_decisions,selected_cloud_pct_all_decisions,switches_total,cost_e2c_total,cost_c2e_total,failure_related_switches_total,primary_failures_total,fallbacks_total,fallback_successes_total,final_failures_total,fallback_recovery_rate_pct,probe_total,probe_success_total,probe_failure_total
+10,2890,2176,714,75.294118,24.705882,38,19,15,4,4,4,4,0,100.000000,280,266,14

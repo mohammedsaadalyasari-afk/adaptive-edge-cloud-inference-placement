@@ -1,0 +1,67 @@
+{
+  "status": "PASS; generated ONLY from final validated original CSV logs",
+  "campaign": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/evidence/S5_S6_S7_LOAD_MATCHED_V1_20261008/03_final_matched_campaign",
+  "generated_utc": "2026-10-11T10:36:24.142587+00:00",
+  "strategies": {
+    "S5": 10,
+    "S6": 10,
+    "S7": 10
+  },
+  "logical_decisions": 8670,
+  "decisions_per_run": 289,
+  "s7_representative_repetition": 1,
+  "bootstrap": {
+    "method": "paired hierarchical circular moving-block bootstrap",
+    "run_resampling": "10 paired repetitions sampled with replacement",
+    "block_length": 10,
+    "resamples": 5000,
+    "seed": 519
+  },
+  "important": "Fig 10: means are additive; P95 components are separately computed, not additive. Fig 12 uses all measured logical-decision total latencies, including measured failed requests. Fig 10 conditional on successful requests. No probes enter main results.",
+  "figure12_results": [
+    {
+      "metric": "Mean",
+      "S6_ms": 474.25523071041056,
+      "S7_ms": 188.60361203212537,
+      "relative_reduction_pct": 60.231622169015075,
+      "CI95_lower_pct": 53.81345633758649,
+      "CI95_upper_pct": 65.88189885214359,
+      "resamples": 5000,
+      "block_length_decisions": 10,
+      "paired_run_count": 10
+    },
+    {
+      "metric": "Median",
+      "S6_ms": 401.35918149352074,
+      "S7_ms": 91.99978649616241,
+      "relative_reduction_pct": 77.07794147032672,
+      "CI95_lower_pct": 73.18135160485339,
+      "CI95_upper_pct": 79.2326724507106,
+      "resamples": 5000,
+      "block_length_decisions": 10,
+      "paired_run_count": 10
+    },
+    {
+      "metric": "P95",
+      "S6_ms": 902.5369379475707,
+      "S7_ms": 487.7750754006206,
+      "relative_reduction_pct": 45.955112207390236,
+      "CI95_lower_pct": 22.23267901890603,
+      "CI95_upper_pct": 68.71195283015685,
+      "resamples": 5000,
+      "block_length_decisions": 10,
+      "paired_run_count": 10
+    },
+    {
+      "metric": "P99",
+      "S6_ms": 1532.1970619392396,
+      "S7_ms": 643.8755031789844,
+      "relative_reduction_pct": 57.97697834219461,
+      "CI95_lower_pct": 49.36180471127738,
+      "CI95_upper_pct": 63.83407830030092,
+      "resamples": 5000,
+      "block_length_decisions": 10,
+      "paired_run_count": 10
+    }
+  ]
+}

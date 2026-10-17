@@ -1,0 +1,3260 @@
+[
+  {
+    "id": "tab1",
+    "type": "tab",
+    "label": "Flow 1",
+    "disabled": false,
+    "info": ""
+  },
+  {
+    "id": "1510ddad0e2d096b",
+    "type": "group",
+    "z": "tab1",
+    "style": {
+      "stroke": "#999999",
+      "stroke-opacity": "1",
+      "fill": "none",
+      "fill-opacity": "1",
+      "label": true,
+      "label-position": "nw",
+      "color": "#a4a4a4"
+    },
+    "nodes": [
+      "mqtt1",
+      "json1",
+      "func1",
+      "4d10a88e06c76b43",
+      "4e013bdca5f3272b",
+      "fba78b9842c06712",
+      "1b574b6069476dfc",
+      "f5b491bcc2ee0669",
+      "43c91d0322f8ab8b",
+      "3b52f5a133a49499",
+      "8ada5f1a8740fa8b",
+      "d1272ca1ca757569",
+      "fdee7e63b0d3ccf4",
+      "aa4fec74493c2b95",
+      "13b40d672165eaf6",
+      "fcc77cfb414ffee0",
+      "607e7342038a8f40",
+      "679fa4d5cff1e92a",
+      "7cde77e6b851a9f8",
+      "ad522c9845a778c7",
+      "eb559bd7f61dc9a7",
+      "45fbeb5aa0e8cab6",
+      "bfbfac3fbbcb700d",
+      "14dad06dedf0ab3d"
+    ],
+    "x": -6,
+    "y": 59,
+    "w": 1132,
+    "h": 489.5
+  },
+  {
+    "id": "dd711467785475b6",
+    "type": "group",
+    "z": "tab1",
+    "style": {
+      "stroke": "#999999",
+      "stroke-opacity": "1",
+      "fill": "none",
+      "fill-opacity": "1",
+      "label": true,
+      "label-position": "nw",
+      "color": "#a4a4a4"
+    },
+    "nodes": [
+      "chart1",
+      "file1",
+      "5d0bc6024bb5ca66",
+      "427b96d2d5f48300",
+      "32a7c044b9c08ae9",
+      "482c8fb9e7d74c5a",
+      "e1f0c68687a2d535",
+      "a1b9b8734b714750",
+      "7e556ff19e5f00d0",
+      "8d21dcd6880f7cf6",
+      "531133dfc5c16161",
+      "cd4304e1b821370c",
+      "86a2886ed2656228",
+      "9b08551570342377",
+      "fb37a10fa5193649",
+      "50d42cec962294c3",
+      "114eac1c78cbba22",
+      "be4260c07a810fdd",
+      "c5e1701f08084e1f",
+      "cdeaedff530ad860",
+      "677424c23e3db64a",
+      "8cb490e185951dae",
+      "e2def733bf319dfa",
+      "0124bf659302ee19",
+      "533a6504be02dc93",
+      "12fe7b3e4b8fc1e9",
+      "95e0502ce8c00622",
+      "7ad1ab81b2d7f1ab",
+      "a8a808d52a2e04f0",
+      "07289f5d1cfd0155",
+      "6be920c2ecc33260",
+      "a1416c26bf026e44"
+    ],
+    "x": 1154,
+    "y": 39,
+    "w": 1012,
+    "h": 542
+  },
+  {
+    "id": "d938aa8fdac1ae6e",
+    "type": "group",
+    "z": "tab1",
+    "style": {
+      "stroke": "#999999",
+      "stroke-opacity": "1",
+      "fill": "none",
+      "fill-opacity": "1",
+      "label": true,
+      "label-position": "nw",
+      "color": "#a4a4a4"
+    },
+    "nodes": [
+      "83fb1fbdd6d10785",
+      "a83f2936eed6ea76",
+      "5cd3d3a85ef37530",
+      "5437fc6a7eab58a9",
+      "631dbeb50e92e02a",
+      "09ee50d9e92c4fac",
+      "54516f3fc25d9f8a",
+      "d1ef2ac501fde03f",
+      "7a32aec94f54f3d4",
+      "05b061e5694aaa49",
+      "4c6596a83e31f9e3",
+      "1812ef98b6733a4d",
+      "cae0ce3f38df8a5d",
+      "959a3c679ca266c9",
+      "5a3b86b38675339b",
+      "261408696a309aa4",
+      "54031ab010adc997",
+      "cf72206cf00d6359",
+      "899e2da869555d90",
+      "1f9cc43836232f1d"
+    ],
+    "x": 14,
+    "y": 599,
+    "w": 2092,
+    "h": 222
+  },
+  {
+    "id": "b8db2ce3c6194a3a",
+    "type": "group",
+    "z": "tab1",
+    "style": {
+      "stroke": "#999999",
+      "stroke-opacity": "1",
+      "fill": "none",
+      "fill-opacity": "1",
+      "label": true,
+      "label-position": "nw",
+      "color": "#a4a4a4"
+    },
+    "nodes": [
+      "d10a9879c871b0ba",
+      "1ea8625e01a8b727",
+      "9a6c32c942dd9d4c",
+      "aef167e49fb55ec1",
+      "a469366a4d4f6e67",
+      "c84d41937b17a604",
+      "d384b19094b684e4",
+      "a50d9a4d37ffb564",
+      "0e9d3518f8f0882b",
+      "bf0135566de12007",
+      "9aaa93adc13225d7",
+      "052a2e40d62d058d",
+      "4874a6493b1aba79",
+      "2a33c5840b2ae702",
+      "b7337580790c3f13",
+      "e884bebd996f3786",
+      "ef046a65f116dca3",
+      "fc772b453864a623",
+      "99ced7bd0314dcc4",
+      "b9a934b56365cea6",
+      "297d4eb83806a556",
+      "35222881fab1fc23",
+      "c9faf0979fcae2af",
+      "6a97aec158fa301a",
+      "cb17aad40f83ca09",
+      "756f6bc47c32e2dd",
+      "c93ce782bbb29818"
+    ],
+    "x": 14,
+    "y": 839,
+    "w": 2012,
+    "h": 302
+  },
+  {
+    "id": "9bab2561ef079905",
+    "type": "mqtt-broker",
+    "name": "local-broker-sim-1883",
+    "broker": "localhost",
+    "port": 1883,
+    "clientid": "",
+    "autoConnect": true,
+    "usetls": false,
+    "protocolVersion": 4,
+    "keepalive": 60,
+    "cleansession": true,
+    "autoUnsubscribe": true,
+    "birthTopic": "",
+    "birthQos": "0",
+    "birthRetain": "false",
+    "birthPayload": "",
+    "birthMsg": {},
+    "closeTopic": "",
+    "closeQos": "0",
+    "closeRetain": "false",
+    "closePayload": "",
+    "closeMsg": {},
+    "willTopic": "",
+    "willQos": "0",
+    "willRetain": "false",
+    "willPayload": "",
+    "willMsg": {},
+    "userProps": "",
+    "sessionExpiry": ""
+  },
+  {
+    "id": "ebc599c0e04f75b9",
+    "type": "mqtt-broker",
+    "name": "local-broker-hw-1883",
+    "broker": "localhost",
+    "port": 1883,
+    "clientid": "",
+    "autoConnect": true,
+    "usetls": false,
+    "protocolVersion": 4,
+    "keepalive": 60,
+    "cleansession": true,
+    "autoUnsubscribe": true,
+    "birthTopic": "",
+    "birthQos": "0",
+    "birthRetain": "false",
+    "birthPayload": "",
+    "birthMsg": {},
+    "closeTopic": "",
+    "closeQos": "0",
+    "closeRetain": "false",
+    "closePayload": "",
+    "closeMsg": {},
+    "willTopic": "",
+    "willQos": "0",
+    "willRetain": "false",
+    "willPayload": "",
+    "willMsg": {},
+    "userProps": "",
+    "sessionExpiry": ""
+  },
+  {
+    "id": "be1bb55661307b3f",
+    "type": "tls-config",
+    "name": "",
+    "cert": "",
+    "key": "",
+    "ca": "/home/lenovo/vf2-node-red/certs/ca.crt",
+    "certname": "",
+    "keyname": "",
+    "caname": "",
+    "servername": "",
+    "verifyservercert": true,
+    "alpnprotocol": ""
+  },
+  {
+    "id": "tabDash",
+    "type": "ui_tab",
+    "name": "Parking",
+    "icon": "dashboard",
+    "disabled": false,
+    "hidden": false
+  },
+  {
+    "id": "9c4ad5f3a8c4acfd",
+    "type": "global-config",
+    "env": [],
+    "modules": {
+      "node-red-dashboard": "3.6.6"
+    }
+  },
+  {
+    "id": "broker1",
+    "type": "mqtt-broker",
+    "name": "local-broker-sim-8883-tls",
+    "broker": "localhost",
+    "port": "8883",
+    "tls": "be1bb55661307b3f",
+    "clientid": "",
+    "autoConnect": true,
+    "usetls": true,
+    "protocolVersion": "4",
+    "keepalive": "60",
+    "cleansession": true,
+    "autoUnsubscribe": true,
+    "birthTopic": "",
+    "birthQos": "0",
+    "birthPayload": "",
+    "birthMsg": {},
+    "closeTopic": "",
+    "closeQos": "0",
+    "closePayload": "",
+    "closeMsg": {},
+    "willTopic": "",
+    "willQos": "0",
+    "willPayload": "",
+    "willMsg": {},
+    "userProps": "",
+    "sessionExpiry": ""
+  },
+  {
+    "id": "grp1",
+    "type": "ui_group",
+    "name": "Main Parking Status",
+    "tab": "tabDash",
+    "order": 1,
+    "disp": true,
+    "width": "4",
+    "collapse": false,
+    "className": ""
+  },
+  {
+    "id": "083ed53a107de782",
+    "type": "ui_group",
+    "name": "AI Output",
+    "tab": "tabDash",
+    "order": 3,
+    "disp": true,
+    "width": "4",
+    "collapse": false,
+    "className": ""
+  },
+  {
+    "id": "3df3b8eeb704c6cb",
+    "type": "mqtt-broker",
+    "name": "local-broker-hw-8883-tls",
+    "broker": "localhost",
+    "port": "8883",
+    "tls": "be1bb55661307b3f",
+    "clientid": "",
+    "autoConnect": true,
+    "usetls": true,
+    "protocolVersion": 4,
+    "keepalive": 60,
+    "cleansession": true,
+    "autoUnsubscribe": true,
+    "birthTopic": "",
+    "birthQos": "0",
+    "birthRetain": "false",
+    "birthPayload": "",
+    "birthMsg": {},
+    "closeTopic": "",
+    "closeQos": "0",
+    "closeRetain": "false",
+    "closePayload": "",
+    "closeMsg": {},
+    "willTopic": "",
+    "willQos": "0",
+    "willRetain": "false",
+    "willPayload": "",
+    "willMsg": {},
+    "userProps": "",
+    "sessionExpiry": ""
+  },
+  {
+    "id": "3c0d4601010d3d81",
+    "type": "ui_group",
+    "name": "Security Output",
+    "tab": "tabDash",
+    "order": 2,
+    "disp": true,
+    "width": "4",
+    "collapse": false,
+    "className": ""
+  },
+  {
+    "id": "169f8235595f80aa",
+    "type": "ui_group",
+    "name": "Utilisation",
+    "tab": "tabDash",
+    "order": 4,
+    "disp": true,
+    "width": "4",
+    "collapse": false,
+    "className": ""
+  },
+  {
+    "id": "fe831d1c8b899e51",
+    "type": "ui_base",
+    "theme": {
+      "name": "theme-light",
+      "lightTheme": {
+        "default": "#0094CE",
+        "baseColor": "#0094CE",
+        "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+        "edited": true,
+        "reset": false
+      },
+      "darkTheme": {
+        "default": "#097479",
+        "baseColor": "#097479",
+        "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+        "edited": false
+      },
+      "customTheme": {
+        "name": "Untitled Theme 1",
+        "default": "#4B7930",
+        "baseColor": "#4B7930",
+        "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+      },
+      "themeState": {
+        "base-color": {
+          "default": "#0094CE",
+          "value": "#0094CE",
+          "edited": false
+        },
+        "page-titlebar-backgroundColor": {
+          "value": "#0094CE",
+          "edited": false
+        },
+        "page-backgroundColor": {
+          "value": "#fafafa",
+          "edited": false
+        },
+        "page-sidebar-backgroundColor": {
+          "value": "#ffffff",
+          "edited": false
+        },
+        "group-textColor": {
+          "value": "#1bbfff",
+          "edited": false
+        },
+        "group-borderColor": {
+          "value": "#ffffff",
+          "edited": false
+        },
+        "group-backgroundColor": {
+          "value": "#ffffff",
+          "edited": false
+        },
+        "widget-textColor": {
+          "value": "#111111",
+          "edited": false
+        },
+        "widget-backgroundColor": {
+          "value": "#0094ce",
+          "edited": false
+        },
+        "widget-borderColor": {
+          "value": "#ffffff",
+          "edited": false
+        },
+        "base-font": {
+          "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+        }
+      },
+      "angularTheme": {
+        "primary": "indigo",
+        "accents": "blue",
+        "warn": "red",
+        "background": "grey",
+        "palette": "light"
+      }
+    },
+    "site": {
+      "name": "Node-RED Dashboard",
+      "hideToolbar": "false",
+      "allowSwipe": "false",
+      "lockMenu": "false",
+      "allowTempTheme": "true",
+      "dateFormat": "DD/MM/YYYY",
+      "sizes": {
+        "sx": 48,
+        "sy": 48,
+        "gx": 6,
+        "gy": 6,
+        "cx": 6,
+        "cy": 6,
+        "px": 0,
+        "py": 0
+      }
+    }
+  },
+  {
+    "id": "mqtt1",
+    "type": "mqtt in",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "parking/slots-sim-sec",
+    "topic": "parking/slots-sim-sec",
+    "qos": "0",
+    "datatype": "auto",
+    "broker": "broker1",
+    "nl": false,
+    "rap": true,
+    "rh": 0,
+    "inputs": 0,
+    "x": 140,
+    "y": 200,
+    "wires": [
+      [
+        "f5b491bcc2ee0669",
+        "fcc77cfb414ffee0"
+      ]
+    ]
+  },
+  {
+    "id": "json1",
+    "type": "json",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "",
+    "property": "payload",
+    "action": "",
+    "pretty": false,
+    "x": 750,
+    "y": 120,
+    "wires": [
+      [
+        "4d10a88e06c76b43",
+        "func1",
+        "7ad1ab81b2d7f1ab"
+      ]
+    ]
+  },
+  {
+    "id": "func1",
+    "type": "function",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "process",
+    "func": "// PROCESS: expects msg.payload as an object (after JSON node)\n\n// ---------- 1) Normalize input payload ----------\nvar p = msg.payload || {};\n\n// free slots (0..3)\nvar free = Number(p.free);\nif (isNaN(free)) free = 0;\nif (free < 0) free = 0;\nif (free > 3) free = 3;\n\n// occupied slots (0..3)\nvar occ = 3 - free;\nif (occ < 0) occ = 0;\nif (occ > 3) occ = 3;\n\n// timestamp (ms)\nvar ts = Date.now();\n\n// slots as bitstring (e.g., 110)\nvar slotsStr = \"\";\nif (Array.isArray(p.slots)) {\n    slotsStr = String(p.slots.join(\"\"));\n}\n\n// entrance / exit events (0/1)\nvar ent = Number(p.entrance);\nif (isNaN(ent)) ent = 0;\n\nvar ex = Number(p.exit);\nif (isNaN(ex)) ex = 0;\n\n// barrier state\nvar bar = (p.barrier !== undefined) ? String(p.barrier) : \"UNKNOWN\";\n\n// topic for classification and traceability\nvar topic = msg.topic || \"\";\n\n// ---------- 2) Scenario classification (LOCKED by topic names) ----------\nvar scenario = \"UNKNOWN\";\nif (topic.indexOf(\"slots-sim-nonsec\") >= 0) scenario = \"S1\";\nelse if (topic.indexOf(\"slots-sim-sec\") >= 0) scenario = \"S2\";\nelse if (topic.indexOf(\"slots-hw-nonsec\") >= 0) scenario = \"S3\";\nelse if (topic.indexOf(\"slots-hw-sec\") >= 0) scenario = \"S4\";\n\n// Security mode label\nvar modeText = \"UNKNOWN\";\nif (scenario === \"S1\" || scenario === \"S3\") modeText = \"NON-SECURE\";\nelse if (scenario === \"S2\" || scenario === \"S4\") modeText = \"SECURE (TLS)\";\n\n// utilization (0..1)\nvar util = occ / 3;\n\n// ---------- 3) AI latency (ms) from inference branch ----------\n// Latency is produced in the HTTP response path and stored in flow context.\n// Attach it only if it is \"fresh\" (e.g., within the last 5 seconds).\n\nvar ai_latency = -1;  // IMPORTANT: default value when inference did not occur\n\nvar lastLat = flow.get(\"last_ai_latency_ms\");\nvar lastTs = flow.get(\"last_ai_latency_ts\");\n\nif (lastLat !== undefined && lastLat !== null && lastTs !== undefined) {\n    var age = Date.now() - Number(lastTs);\n    if (!isNaN(age) && age >= 0 && age <= 5000) {   // 5s freshness window\n        ai_latency = Number(lastLat);\n        if (isNaN(ai_latency)) ai_latency = -1;\n    }\n}\n\n// ---------- 4) Attach meta object (dashboard + switch + logging) ----------\n// CSV schema (LOCKED):\n// epoch_ms,slots_bits,occ,free,entrance_event,exit_event,barrier,ai_latency_ms,scenario,mode,topic\nvar csvRow =\n    ts + \",\" +\n    slotsStr + \",\" +\n    occ + \",\" +\n    free + \",\" +\n    ent + \",\" +\n    ex + \",\" +\n    bar + \",\" +\n    ai_latency + \",\" +\n    scenario + \",\" +\n    modeText + \",\" +\n    topic;\n\nmsg.meta = msg.meta || {};\n\nmsg.meta.scenario = scenario;\nmsg.meta.mode = modeText;\nmsg.meta.free = free;\nmsg.meta.occ = occ;\nmsg.meta.util = util;\nmsg.meta.ai_latency_ms = ai_latency;\nmsg.meta.csv = csvRow;\n\n// Keep these for any existing UI nodes that use msg.free/msg.occ/msg.util\nmsg.free = free;\nmsg.occ = occ;\nmsg.util = util;\n\n// Do NOT overwrite msg.payload (preserves downstream compatibility)\n\n// ---------- 5) Build Azure features (DETERMINISTIC, demo-stable) ----------\n// Model expects 6 features:\n// slot{i}_occupied_ratio, slot{i}_event_rate\n\nvar slotsArr = Array.isArray(p.slots) ? p.slots : [0, 0, 0]; // 1=OCCUPIED, 0=FREE\n\nfunction occ01(v) { return (Number(v) === 1) ? 1 : 0; } // occupied -> 1\n\nvar o1 = occ01(slotsArr[0]);\nvar o2 = occ01(slotsArr[1]);\nvar o3 = occ01(slotsArr[2]);\n\n// Use entrance/exit events as activity signals (0/1)\nvar e1 = ent;                 // entrance event\nvar e2 = ex;                  // exit event\nvar e3 = (ent || ex) ? 1 : 0; // any event\n\nmsg.features = {\n    slot1_occupied_ratio: o1,\n    slot2_occupied_ratio: o2,\n    slot3_occupied_ratio: o3,\n    slot1_event_rate: e1,\n    slot2_event_rate: e2,\n    slot3_event_rate: e3\n};\nreturn msg;",
+    "outputs": 1,
+    "timeout": "",
+    "noerr": 2,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 980,
+    "y": 100,
+    "wires": [
+      [
+        "file1",
+        "5d0bc6024bb5ca66",
+        "32a7c044b9c08ae9",
+        "09ee50d9e92c4fac",
+        "e1f0c68687a2d535",
+        "a1b9b8734b714750",
+        "607e7342038a8f40",
+        "0124bf659302ee19"
+      ]
+    ]
+  },
+  {
+    "id": "chart1",
+    "type": "ui_chart",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "",
+    "group": "grp1",
+    "order": 1,
+    "width": "4",
+    "height": "4",
+    "label": "Num. Occupied slots (0–3)",
+    "chartType": "line",
+    "legend": "false",
+    "xformat": "HH:mm:ss",
+    "interpolate": "linear",
+    "nodata": "msg.payload.slots",
+    "dot": true,
+    "ymin": "0",
+    "ymax": "3",
+    "removeOlder": "1",
+    "removeOlderPoints": "",
+    "removeOlderUnit": "3600",
+    "cutout": 0,
+    "useOneColor": false,
+    "useUTC": false,
+    "colors": [
+      "#1f77b4",
+      "#aec7e8",
+      "#ff7f0e",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000",
+      "#000000"
+    ],
+    "outputs": 1,
+    "useDifferentColor": false,
+    "className": "",
+    "x": 1520,
+    "y": 140,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "file1",
+    "type": "file",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "Parking Telemetry Log (Latency Source)",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/parking_log.csv",
+    "filenameType": "str",
+    "appendNewline": true,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "utf8",
+    "x": 1340,
+    "y": 260,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "4d10a88e06c76b43",
+    "type": "debug",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "JSON OUT",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 770,
+    "y": 160,
+    "wires": []
+  },
+  {
+    "id": "5d0bc6024bb5ca66",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "occ_to_payload",
+    "func": "msg.topic = \"occupied\";\nmsg.payload = Number(msg.occ ?? (3 - (msg.payload?.free ?? 0)));\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1260,
+    "y": 140,
+    "wires": [
+      [
+        "chart1"
+      ]
+    ]
+  },
+  {
+    "id": "427b96d2d5f48300",
+    "type": "ui_gauge",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "",
+    "group": "grp1",
+    "order": 2,
+    "width": "4",
+    "height": "4",
+    "gtype": "gage",
+    "title": "Available Slots",
+    "label": "slots",
+    "format": "",
+    "min": 0,
+    "max": "3",
+    "colors": [
+      "#ff0000",
+      "#e6e600",
+      "#00ff00"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 1480,
+    "y": 180,
+    "wires": []
+  },
+  {
+    "id": "d10a9879c871b0ba",
+    "type": "debug",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Debug Azure Body",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 130,
+    "y": 880,
+    "wires": []
+  },
+  {
+    "id": "83fb1fbdd6d10785",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "Build Deterministic Inference Request",
+    "func": "// Controlled S5-S7 preprocessing.\n// Same frozen telemetry -> same six AI features.\n//\n// All time-dependent AI features use the ORIGINAL\n// source timestamp rather than host wall-clock time.\n\nmsg.meta = msg.meta || {};\n\nconst p = msg.payload || {};\n\nconst slots =\n    Array.isArray(p.slots)\n        ? p.slots\n        : [0, 0, 0];\n\n\n// ------------------------------------------------------------\n// 1. Frozen source identity/time\n// ------------------------------------------------------------\n\nconst sourceTs = Number(\n    msg.meta.source_epoch_ms !== undefined\n        ? msg.meta.source_epoch_ms\n        : (\n            p.source_epoch_ms !== undefined\n                ? p.source_epoch_ms\n                : p.ts\n        )\n);\n\nconst replaySeq = Number(\n    msg.meta.replay_seq !== undefined\n        ? msg.meta.replay_seq\n        : p.replay_seq\n);\n\nif (!Number.isFinite(sourceTs)) {\n    node.error(\n        \"Missing/invalid source timestamp\",\n        msg\n    );\n    return null;\n}\n\n\n// ------------------------------------------------------------\n// 2. Sliding-window state\n// ------------------------------------------------------------\n\nconst W = 10;\n\nlet hist =\n    flow.get(\"slot_hist\") ||\n    [[], [], []];\n\nlet last =\n    flow.get(\"slot_last\") ||\n    [null, null, null];\n\nlet flips =\n    flow.get(\"slot_flips\") ||\n    [0, 0, 0];\n\nlet flipT0 =\n    Number(\n        flow.get(\"flip_t0\")\n    );\n\n\n// ------------------------------------------------------------\n// 3. Explicit run-boundary reset\n// ------------------------------------------------------------\n\nif (\n    replaySeq === 1 ||\n    !Array.isArray(hist) ||\n    !Array.isArray(last) ||\n    !Array.isArray(flips) ||\n    !Number.isFinite(flipT0) ||\n    sourceTs < flipT0\n) {\n    hist = [[], [], []];\n    last = [null, null, null];\n    flips = [0, 0, 0];\n    flipT0 = sourceTs;\n}\n\n\n// ------------------------------------------------------------\n// 4. Update occupancy history and flip counters\n// ------------------------------------------------------------\n\nfor (let i = 0; i < 3; i++) {\n\n    // Normalized replay semantics:\n    // 1 = OCCUPIED\n    // 0 = FREE\n\n    const v =\n        Number(slots[i]) === 1\n            ? 1\n            : 0;\n\n    if (\n        last[i] !== null &&\n        v !== last[i]\n    ) {\n        flips[i] += 1;\n    }\n\n    last[i] = v;\n\n    hist[i].push(v);\n\n    if (hist[i].length > W) {\n        hist[i].shift();\n    }\n}\n\n\n// ------------------------------------------------------------\n// 5. Occupancy-ratio features\n// ------------------------------------------------------------\n\nfunction mean(arr) {\n\n    if (\n        !arr ||\n        arr.length === 0\n    ) {\n        return 0;\n    }\n\n    return (\n        arr.reduce(\n            (a, b) => a + b,\n            0\n        ) / arr.length\n    );\n}\n\nconst r1 =\n    Number(\n        mean(hist[0]).toFixed(3)\n    );\n\nconst r2 =\n    Number(\n        mean(hist[1]).toFixed(3)\n    );\n\nconst r3 =\n    Number(\n        mean(hist[2]).toFixed(3)\n    );\n\n\n// ------------------------------------------------------------\n// 6. Deterministic event-rate features\n//\n// Definition preserved:\n//     flips / elapsed seconds\n//\n// Elapsed time now comes from source_epoch_ms.\n// ------------------------------------------------------------\n\nlet dt =\n    (\n        sourceTs -\n        flipT0\n    ) / 1000.0;\n\nif (dt < 0) {\n    dt = 0;\n}\n\nlet er1 = 0;\nlet er2 = 0;\nlet er3 = 0;\n\nif (dt >= 1.0) {\n\n    er1 =\n        Number(\n            (flips[0] / dt)\n            .toFixed(3)\n        );\n\n    er2 =\n        Number(\n            (flips[1] / dt)\n            .toFixed(3)\n        );\n\n    er3 =\n        Number(\n            (flips[2] / dt)\n            .toFixed(3)\n        );\n\n    flipT0 = sourceTs;\n\n    flips = [0, 0, 0];\n}\n\n\n// ------------------------------------------------------------\n// 7. Store deterministic state\n// ------------------------------------------------------------\n\nflow.set(\n    \"slot_hist\",\n    hist\n);\n\nflow.set(\n    \"slot_last\",\n    last\n);\n\nflow.set(\n    \"slot_flips\",\n    flips\n);\n\nflow.set(\n    \"flip_t0\",\n    flipT0\n);\n\n\n// ------------------------------------------------------------\n// 8. Final six model features\n// ------------------------------------------------------------\n\nmsg.features = {\n\n    slot1_occupied_ratio: r1,\n    slot2_occupied_ratio: r2,\n    slot3_occupied_ratio: r3,\n\n    slot1_event_rate: er1,\n    slot2_event_rate: er2,\n    slot3_event_rate: er3\n};\n\n\n// ------------------------------------------------------------\n// 9. FastAPI request body\n// ------------------------------------------------------------\n\nmsg.payload = {\n    features: msg.features\n};\n\nmsg.headers =\n    msg.headers || {};\n\nmsg.headers[\"Content-Type\"] =\n    \"application/json\";\n\nreturn msg;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 140,
+    "y": 640,
+    "wires": [
+      [
+        "d1ef2ac501fde03f",
+        "d10a9879c871b0ba"
+      ]
+    ]
+  },
+  {
+    "id": "a83f2936eed6ea76",
+    "type": "http request",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "HTTP POST /predict (S6 Cloud Render)",
+    "method": "POST",
+    "ret": "obj",
+    "paytoqs": "body",
+    "url": "https://smart-parking-s6-cloud.onrender.com/predict_named",
+    "tls": "",
+    "persist": false,
+    "proxy": "",
+    "insecureHTTPParser": false,
+    "authType": "",
+    "senderr": false,
+    "headers": [
+      {
+        "keyType": "other",
+        "keyValue": "Content-Type",
+        "valueType": "other",
+        "valueValue": "application/json"
+      }
+    ],
+    "x": 730,
+    "y": 640,
+    "wires": [
+      [
+        "a469366a4d4f6e67",
+        "54516f3fc25d9f8a",
+        "a50d9a4d37ffb564"
+      ]
+    ]
+  },
+  {
+    "id": "1ea8625e01a8b727",
+    "type": "debug",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Debug Azure Response",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 730,
+    "y": 880,
+    "wires": []
+  },
+  {
+    "id": "5cd3d3a85ef37530",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "Handle Azure Response",
+    "func": "// Handle Azure Response (LOCKED)\n// Parses Azure response, sets msg.ai.prediction consistently, never redeclares variables.\n\nlet r = msg.payload;\n\n// Parse if needed\nif (typeof r === \"string\") {\n    try { r = JSON.parse(r); } catch(e) { r = {}; }\n}\nif (!r || typeof r !== \"object\") r = {};\n\nmsg.ai = msg.ai || {};\n\n// If API returns {\"detail\":\"Not Found\"} or validation error\nif (r.detail) {\n    msg.ai.prediction = \"AI_ERR\";\n    msg.ai.recommendation = \"Cloud AI unavailable. Using sensor-only status.\";\n    msg.ai.raw = r;\n    return msg;\n}\n\n// Normal success path\nmsg.ai.prediction = (r.prediction !== undefined) ? String(r.prediction).toUpperCase() : \"UNKNOWN\";\nmsg.ai.probabilities = r.probabilities || {};\nmsg.ai.utilization = (r.utilization !== undefined) ? r.utilization : undefined;\nmsg.ai.raw = r;\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1070,
+    "y": 700,
+    "wires": [
+      [
+        "1ea8625e01a8b727",
+        "9a6c32c942dd9d4c",
+        "899e2da869555d90",
+        "1f9cc43836232f1d"
+      ]
+    ]
+  },
+  {
+    "id": "5437fc6a7eab58a9",
+    "type": "ui_text",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "group": "083ed53a107de782",
+    "order": 3,
+    "width": "4",
+    "height": "2",
+    "name": "",
+    "label": "AI Status text",
+    "format": "{{msg.ai.prediction}}",
+    "layout": "col-center",
+    "className": "",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#000000",
+    "x": 2010,
+    "y": 640,
+    "wires": []
+  },
+  {
+    "id": "631dbeb50e92e02a",
+    "type": "ui_text",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "group": "083ed53a107de782",
+    "order": 4,
+    "width": "4",
+    "height": "2",
+    "name": "",
+    "label": "Recommendation text",
+    "format": "{{msg.ai.recommendation}}",
+    "layout": "col-center",
+    "className": "",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#000000",
+    "x": 1980,
+    "y": 680,
+    "wires": []
+  },
+  {
+    "id": "9a6c32c942dd9d4c",
+    "type": "function",
+    "z": "tab1",
+    "d": true,
+    "g": "b8db2ce3c6194a3a",
+    "name": "Format AI Prediction Log Line",
+    "func": "// Prediction / AI behavior log (NOT timing)\n\nconst s = msg.azure_summary || {};\nconst now = new Date().toISOString();\n\n// CSV columns:\n// timestamp, lot_id, total_free, total_occupied, slots_count,\n// utilization_pct, status, recommendation\nconst line = [\n  now,\n  s.lot_id ?? \"\",\n  s.total_free ?? \"\",\n  s.total_occupied ?? \"\",\n  s.slots_count ?? \"\",\n  s.utilization_pct ?? \"\",\n  s.status ?? \"\",\n  '\"' + String(s.recommendation ?? \"\").replace(/\"/g, '\"\"') + '\"'\n].join(\",\") + \"\\n\";\n\nmsg.payload = line;\nreturn msg;\n\n\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1050,
+    "y": 880,
+    "wires": [
+      [
+        "aef167e49fb55ec1"
+      ]
+    ]
+  },
+  {
+    "id": "aef167e49fb55ec1",
+    "type": "file",
+    "z": "tab1",
+    "d": true,
+    "g": "b8db2ce3c6194a3a",
+    "name": "AI Inference Log (Prediction & Timing) ai_prediction",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/ai_prediction_log.csv",
+    "filenameType": "str",
+    "appendNewline": true,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "utf8",
+    "x": 1030,
+    "y": 940,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "a469366a4d4f6e67",
+    "type": "debug",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "AFTER AZURE",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 380,
+    "y": 920,
+    "wires": []
+  },
+  {
+    "id": "32a7c044b9c08ae9",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "Build Training Row",
+    "func": "// Append-only training row for the SAME 6 features Azure expects\n\nconst f = msg.features || {};\nconst util = Number(msg.util ?? msg.meta?.util ?? 0);\n\n// label from utilization (your rule)\nlet label = \"NORMAL\";\nif (util >= 0.8) label = \"CRITICAL\";\nelse if (util >= 0.5) label = \"BUSY\";\n\n// CSV columns in order expected by retrain script\n// timestamp, slot1_occ_ratio, slot2_occ_ratio, slot3_occ_ratio, slot1_event_rate, slot2_event_rate, slot3_event_rate, label\nmsg.payload = [\n  new Date().toISOString(),\n  Number(f.slot1_occupied_ratio ?? 0),\n  Number(f.slot2_occupied_ratio ?? 0),\n  Number(f.slot3_occupied_ratio ?? 0),\n  Number(f.slot1_event_rate ?? 0),\n  Number(f.slot2_event_rate ?? 0),\n  Number(f.slot3_event_rate ?? 0),\n  label\n].join(\",\") + \"\\n\";\n\nreturn msg;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 1,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1270,
+    "y": 80,
+    "wires": [
+      [
+        "482c8fb9e7d74c5a"
+      ]
+    ]
+  },
+  {
+    "id": "482c8fb9e7d74c5a",
+    "type": "file",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "/home/user/training_logs/parking_training_log.csv",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/training_logs/parking_training_log_features.csv",
+    "filenameType": "str",
+    "appendNewline": true,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "utf8",
+    "x": 1590,
+    "y": 80,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "fc7014e25c9cbd35",
+    "type": "comment",
+    "z": "tab1",
+    "name": "MQTT Data Ingestion ",
+    "info": "",
+    "x": 100,
+    "y": 40,
+    "wires": []
+  },
+  {
+    "id": "6667ed21d6baec25",
+    "type": "comment",
+    "z": "tab1",
+    "name": "Local Processing, Visualisation & Logging",
+    "info": "",
+    "x": 1320,
+    "y": 40,
+    "wires": []
+  },
+  {
+    "id": "b41f1effe7fa1fd4",
+    "type": "comment",
+    "z": "tab1",
+    "name": "Cloud AI Inference (HTTPS /Predict, TLS)",
+    "info": "",
+    "x": 180,
+    "y": 580,
+    "wires": []
+  },
+  {
+    "id": "4819ce40089518c5",
+    "type": "comment",
+    "z": "tab1",
+    "name": "Metrics, Debugging & Experiment Logs",
+    "info": "",
+    "x": 170,
+    "y": 1140,
+    "wires": []
+  },
+  {
+    "id": "4e013bdca5f3272b",
+    "type": "mqtt in",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "parking/slots-sim-nonsec",
+    "topic": "parking/slots-sim-nonsec",
+    "qos": "0",
+    "datatype": "auto",
+    "broker": "9bab2561ef079905",
+    "nl": false,
+    "rap": true,
+    "rh": 0,
+    "inputs": 0,
+    "x": 150,
+    "y": 140,
+    "wires": [
+      [
+        "f5b491bcc2ee0669",
+        "fcc77cfb414ffee0"
+      ]
+    ]
+  },
+  {
+    "id": "09ee50d9e92c4fac",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "Start Timer + Tag Mode",
+    "func": "const perf = global.get(\"perf\");\n\nmsg.meta = msg.meta || {};\n\n// Preserve frozen-workload identity for experimental traceability.\n// These fields do NOT affect AI preprocessing or inference.\nconst replayPayload =\n    (msg.payload && typeof msg.payload === \"object\")\n    ? msg.payload : {};\n\nmsg.meta.replay_seq =\n    (replayPayload.replay_seq !== undefined)\n    ? replayPayload.replay_seq : \"\";\n\nmsg.meta.source_line =\n    (replayPayload.source_line !== undefined)\n    ? replayPayload.source_line : \"\";\n\nmsg.meta.source_epoch_ms =\n    (replayPayload.source_epoch_ms !== undefined)\n    ? replayPayload.source_epoch_ms :\n    ((replayPayload.ts !== undefined) ? replayPayload.ts : \"\");\n\nmsg.meta.raw_slots_bits =\n    (replayPayload.raw_slots_bits !== undefined)\n    ? replayPayload.raw_slots_bits : \"\";\n\nmsg.meta.t0 = Date.now();\nmsg.meta.t0_mono = perf.now();\n\nconst t = (msg.topic || \"\").toLowerCase();\nif (t.includes(\"nonsec\")) msg.meta.mode = \"nonsecure\";\nelse if (t.includes(\"sec\")) msg.meta.mode = \"secure\";\nelse msg.meta.mode = \"unknown\";\n\nmsg.meta.gt_occ = (typeof msg.occ === \"number\") ? msg.occ : null;\nmsg.meta.gt_free = (typeof msg.free === \"number\") ? msg.free : null;\n\nmsg.meta.run_id =\n    flow.get(\"run_id\") ||\n    (\"run_\" + new Date().toISOString().slice(0,10));\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 150,
+    "y": 720,
+    "wires": [
+      [
+        "83fb1fbdd6d10785",
+        "1812ef98b6733a4d"
+      ]
+    ]
+  },
+  {
+    "id": "54516f3fc25d9f8a",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "Stop Timer + Build Log Record",
+    "func": "// Stop Timer + Build Log Record (AFTER HTTP response)\nconst perf = global.get(\"perf\");\n\nmsg.meta = msg.meta || {};\nmsg.meta.t1 = Date.now();\n\nconst t1_mono = perf.now();\nmsg.meta.latency_ms =\n    (typeof msg.meta.t0_mono === \"number\")\n    ? Number((t1_mono - msg.meta.t0_mono).toFixed(3))\n    : null;\n\nmsg.meta.ai_latency_ms = msg.meta.latency_ms;\n\nflow.set(\"last_ai_latency_ms\", msg.meta.ai_latency_ms);\nflow.set(\"last_ai_latency_ts\", msg.meta.t1);\n\nconst ts = new Date(msg.meta.t1).toISOString();\nconst sc = msg.statusCode || \"\";\nconst resp = msg.payload || {};\n\nconst prediction =\n    (resp.prediction !== undefined) ? resp.prediction : \"\";\nconst probs =\n    (resp.probabilities !== undefined)\n    ? JSON.stringify(resp.probabilities) : \"\";\nconst recommendation =\n    (resp.recommendation !== undefined)\n    ? String(resp.recommendation) : \"\";\n\nmsg.ai_inference_csv = [\n  ts,\n  msg.meta.run_id || \"\",\n  msg.meta.mode || \"\",\n  sc,\n  msg.meta.latency_ms ?? \"\",\n  msg.meta.gt_occ ?? \"\",\n  msg.meta.gt_free ?? \"\",\n  prediction\n].join(\",\");\n\nmsg.ai_prediction_csv = [\n  ts,\n  msg.meta.run_id || \"\",\n  msg.meta.mode || \"\",\n  prediction,\n  '\"' + recommendation.replace(/\"/g,'\"\"') + '\"',\n  '\"' + probs.replace(/\"/g,'\"\"') + '\"'\n].join(\",\");\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1110,
+    "y": 640,
+    "wires": [
+      [
+        "5cd3d3a85ef37530",
+        "c84d41937b17a604",
+        "d384b19094b684e4",
+        "bf0135566de12007",
+        "4874a6493b1aba79",
+        "2a33c5840b2ae702",
+        "959a3c679ca266c9",
+        "12fe7b3e4b8fc1e9",
+        "6f5e5a7d1c9b4a01"
+      ]
+    ]
+  },
+  {
+    "id": "d1ef2ac501fde03f",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "Set Headers (API Key)",
+    "func": "msg.headers = msg.headers || {};\nmsg.headers[\"Content-Type\"] = \"application/json\";\nmsg.headers[\"x-api-key\"] = \"StrongPass123\";\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 440,
+    "y": 680,
+    "wires": [
+      [
+        "7a32aec94f54f3d4"
+      ]
+    ]
+  },
+  {
+    "id": "c84d41937b17a604",
+    "type": "function",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Format Inference Timing Log",
+    "func": "msg.payload = (msg.ai_inference_csv || \"\") + \"\\n\";\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1380,
+    "y": 940,
+    "wires": [
+      [
+        "9aaa93adc13225d7",
+        "99ced7bd0314dcc4"
+      ]
+    ]
+  },
+  {
+    "id": "d384b19094b684e4",
+    "type": "debug",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "debug Stop Timer + Build Log Record",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1410,
+    "y": 880,
+    "wires": []
+  },
+  {
+    "id": "7a32aec94f54f3d4",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "Deterministic 1 Hz Source-Time Sampler",
+    "timeout": 0,
+    "outputs": 1,
+    "x": 410,
+    "y": 640,
+    "wires": [
+      [
+        "7000000000000050",
+        "35222881fab1fc23"
+      ]
+    ],
+    "func": "// Deterministic inference-request selection.\n//\n// Admit one telemetry item at each 1000-ms boundary\n// measured from the frozen source trace.\n\nmsg.meta = msg.meta || {};\n\nconst ts =\n    Number(\n        msg.meta.source_epoch_ms\n    );\n\nconst seq =\n    Number(\n        msg.meta.replay_seq\n    );\n\nif (!Number.isFinite(ts)) {\n    node.error(\n        \"Missing source_epoch_ms for deterministic sampler\",\n        msg\n    );\n    return null;\n}\n\nlet t0 =\n    Number(\n        flow.get(\n            \"det_inference_sampler_t0\"\n        )\n    );\n\nlet k =\n    Number(\n        flow.get(\n            \"det_inference_sampler_k\"\n        )\n    );\n\n\n// Explicit replay reset.\n\nif (\n    seq === 1 ||\n    !Number.isFinite(t0) ||\n    !Number.isFinite(k) ||\n    ts < t0\n) {\n    t0 = ts;\n    k = 0;\n}\n\n\nconst target =\n    t0 + (k * 1000);\n\n\n// First telemetry packet at or after each source-time\n// 1-second boundary is admitted.\n\nif (ts >= target) {\n\n    do {\n        k += 1;\n    }\n    while (\n        t0 + (k * 1000) <= ts\n    );\n\n    flow.set(\n        \"det_inference_sampler_t0\",\n        t0\n    );\n\n    flow.set(\n        \"det_inference_sampler_k\",\n        k\n    );\n\n    return msg;\n}\n\n\nflow.set(\n    \"det_inference_sampler_t0\",\n    t0\n);\n\nflow.set(\n    \"det_inference_sampler_k\",\n    k\n);\n\nreturn null;\n",
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": []
+  },
+  {
+    "id": "a50d9a4d37ffb564",
+    "type": "function",
+    "z": "tab1",
+    "d": true,
+    "g": "b8db2ce3c6194a3a",
+    "name": "Compact-debug",
+    "func": "msg.debug_line = {\n  statusCode: msg.statusCode,\n  responseUrl: msg.responseUrl,\n  payload: msg.payload\n};\nreturn msg;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 380,
+    "y": 960,
+    "wires": [
+      [
+        "0e9d3518f8f0882b"
+      ]
+    ]
+  },
+  {
+    "id": "0e9d3518f8f0882b",
+    "type": "debug",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "debug_line",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "debug_line",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 590,
+    "y": 960,
+    "wires": []
+  },
+  {
+    "id": "bf0135566de12007",
+    "type": "function",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Format Prediction Log",
+    "func": "msg.payload = msg.ai_prediction_csv + \"\\n\";\nreturn msg;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1360,
+    "y": 1040,
+    "wires": [
+      [
+        "052a2e40d62d058d"
+      ]
+    ]
+  },
+  {
+    "id": "9aaa93adc13225d7",
+    "type": "file",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "AI Inference Log (Prediction & Timing) ai_inference",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/ai_inference_log.csv",
+    "filenameType": "str",
+    "appendNewline": false,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "utf8",
+    "x": 1450,
+    "y": 980,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "052a2e40d62d058d",
+    "type": "file",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "AI Inference Log (ai_prediction_log)",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/ai_prediction_log.csv",
+    "filenameType": "str",
+    "appendNewline": false,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "utf8",
+    "x": 1400,
+    "y": 1080,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "4874a6493b1aba79",
+    "type": "debug",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Debug (Inference line)",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "msg.ai_inference_csv",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1820,
+    "y": 880,
+    "wires": []
+  },
+  {
+    "id": "2a33c5840b2ae702",
+    "type": "debug",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Debug  (Prediction line)",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "msg.ai_prediction_csv",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1820,
+    "y": 980,
+    "wires": []
+  },
+  {
+    "id": "b7337580790c3f13",
+    "type": "inject",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Init CSV Headers",
+    "props": [
+      {
+        "p": "payload"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": true,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "timestamp,run_id,mode,statusCode,latency_ms,gt_occ,gt_free,prediction\\n",
+    "payloadType": "flow",
+    "x": 210,
+    "y": 1020,
+    "wires": [
+      [
+        "b9a934b56365cea6"
+      ]
+    ]
+  },
+  {
+    "id": "e884bebd996f3786",
+    "type": "file",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Write Header (overwrite) ai_inference",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/ai_inference_log.csv",
+    "filenameType": "str",
+    "appendNewline": false,
+    "createDir": true,
+    "overwriteFile": "true",
+    "encoding": "utf8",
+    "x": 690,
+    "y": 1020,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ef046a65f116dca3",
+    "type": "inject",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Init CSV Headers",
+    "props": [
+      {
+        "p": "payload"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": true,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "timestamp,run_id,mode,statusCode,latency_ms,gt_occ,gt_free,prediction\\n",
+    "payloadType": "str",
+    "x": 210,
+    "y": 1060,
+    "wires": [
+      [
+        "297d4eb83806a556"
+      ]
+    ]
+  },
+  {
+    "id": "fc772b453864a623",
+    "type": "file",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Write Header (overwrite) ai_prediction",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/ai_prediction_log.csv",
+    "filenameType": "str",
+    "appendNewline": false,
+    "createDir": true,
+    "overwriteFile": "true",
+    "encoding": "utf8",
+    "x": 710,
+    "y": 1060,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "99ced7bd0314dcc4",
+    "type": "debug",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Debug  (Inference line) payload",
+    "active": false,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1850,
+    "y": 920,
+    "wires": []
+  },
+  {
+    "id": "b9a934b56365cea6",
+    "type": "function",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Function(Header)",
+    "func": "msg.payload = \"timestamp,run_id,mode,statusCode,latency_ms,gt_occ,gt_free,prediction\\n\";\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 410,
+    "y": 1020,
+    "wires": [
+      [
+        "e884bebd996f3786"
+      ]
+    ]
+  },
+  {
+    "id": "297d4eb83806a556",
+    "type": "function",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Function(Header)",
+    "func": "msg.payload = \"timestamp,run_id,mode,prediction,recommendation,probabilities\\n\";\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 410,
+    "y": 1060,
+    "wires": [
+      [
+        "fc772b453864a623"
+      ]
+    ]
+  },
+  {
+    "id": "fba78b9842c06712",
+    "type": "mqtt in",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "parking/slots-hw-sec",
+    "topic": "parking/slots-hw-sec",
+    "qos": "0",
+    "datatype": "auto",
+    "broker": "3df3b8eeb704c6cb",
+    "nl": false,
+    "rap": true,
+    "rh": 0,
+    "inputs": 0,
+    "x": 130,
+    "y": 320,
+    "wires": [
+      [
+        "f5b491bcc2ee0669",
+        "fcc77cfb414ffee0"
+      ]
+    ]
+  },
+  {
+    "id": "1b574b6069476dfc",
+    "type": "mqtt in",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "parking/slots-hw-nonsec",
+    "topic": "parking/slots-hw-nonsec",
+    "qos": "0",
+    "datatype": "auto",
+    "broker": "ebc599c0e04f75b9",
+    "nl": false,
+    "rap": true,
+    "rh": 0,
+    "inputs": 0,
+    "x": 150,
+    "y": 260,
+    "wires": [
+      [
+        "f5b491bcc2ee0669",
+        "fcc77cfb414ffee0"
+      ]
+    ]
+  },
+  {
+    "id": "f5b491bcc2ee0669",
+    "type": "function",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "Mode tagging",
+    "func": "const t = msg.topic || \"\";\n\nlet scenario = \"UNK\";\nif (t.includes(\"sim-nonsec\")) scenario = \"S1\";\nelse if (t.includes(\"sim-sec\")) scenario = \"S2\";\nelse if (t.includes(\"hw-nonsec\")) scenario = \"S3\";\nelse if (t.includes(\"hw-sec\")) scenario = \"S4\";\n\nmsg.meta = msg.meta || {};\nmsg.meta.scenario = scenario;\nmsg.meta.mode = (scenario === \"S2\" || scenario === \"S4\") ? \"SECURE (TLS)\" : \"NON-SECURE\";\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 440,
+    "y": 160,
+    "wires": [
+      [
+        "43c91d0322f8ab8b",
+        "7cde77e6b851a9f8",
+        "8d21dcd6880f7cf6",
+        "c5e1701f08084e1f"
+      ]
+    ]
+  },
+  {
+    "id": "43c91d0322f8ab8b",
+    "type": "function",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "Scenario Gate",
+    "func": "const active = flow.get(\"activeScenario\") || \"ALL\";\nconst s = (msg.meta && msg.meta.scenario) ? msg.meta.scenario : \"UNK\";\n\n// show live status so we know gate is receiving messages\nnode.status({fill:\"blue\",shape:\"dot\",text:`active=${active} got=${s}`});\n\n// If you want to *debug* without dropping anything, set PASS_ALL=true\nconst PASS_ALL = false;\n\nif (!PASS_ALL) {\n  if (active !== \"ALL\" && s !== active) return null;\n}\n\nreturn msg;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 460,
+    "y": 260,
+    "wires": [
+      [
+        "86a2886ed2656228",
+        "9b08551570342377",
+        "679fa4d5cff1e92a",
+        "114eac1c78cbba22",
+        "ad522c9845a778c7"
+      ]
+    ]
+  },
+  {
+    "id": "3b52f5a133a49499",
+    "type": "function",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "Set Scenario",
+    "func": "// Expect msg.payload to be like: \"S1\", \"S2\", \"S3\", \"S4\", or \"ALL\"\n// If your inject nodes are not sending that yet, fix inject payload (next step).\n\nconst s = String(msg.payload || \"ALL\").trim().toUpperCase();\n\nflow.set(\"activeScenario\", s);\n\n// show selected scenario on the node (helps debugging)\nnode.status({fill:\"green\", shape:\"dot\", text:`activeScenario=${s}`});\n\n// IMPORTANT: do not forward this message to any file/log nodes\nreturn null;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 650,
+    "y": 420,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "8ada5f1a8740fa8b",
+    "type": "inject",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "S1 sim-nonsec",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "S1",
+    "payloadType": "str",
+    "x": 360,
+    "y": 360,
+    "wires": [
+      [
+        "3b52f5a133a49499"
+      ]
+    ]
+  },
+  {
+    "id": "fdee7e63b0d3ccf4",
+    "type": "inject",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "S2 sim-sec",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "S2",
+    "payloadType": "str",
+    "x": 540,
+    "y": 360,
+    "wires": [
+      [
+        "3b52f5a133a49499"
+      ]
+    ]
+  },
+  {
+    "id": "d1272ca1ca757569",
+    "type": "inject",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "S3 hw-nonsec",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "S3",
+    "payloadType": "str",
+    "x": 710,
+    "y": 360,
+    "wires": [
+      [
+        "3b52f5a133a49499"
+      ]
+    ]
+  },
+  {
+    "id": "aa4fec74493c2b95",
+    "type": "inject",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "S4 hw-sec",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "S4",
+    "payloadType": "str",
+    "x": 880,
+    "y": 360,
+    "wires": [
+      [
+        "3b52f5a133a49499"
+      ]
+    ]
+  },
+  {
+    "id": "13b40d672165eaf6",
+    "type": "inject",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "ALL",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "ALL",
+    "payloadType": "str",
+    "x": 1050,
+    "y": 360,
+    "wires": [
+      [
+        "3b52f5a133a49499"
+      ]
+    ]
+  },
+  {
+    "id": "cd4304e1b821370c",
+    "type": "ui_text",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "group": "3c0d4601010d3d81",
+    "order": 1,
+    "width": "4",
+    "height": "3",
+    "name": "",
+    "label": "Security Mode text",
+    "format": "{{msg.payload}}",
+    "layout": "col-center",
+    "className": "",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#000000",
+    "x": 1510,
+    "y": 340,
+    "wires": []
+  },
+  {
+    "id": "e1f0c68687a2d535",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "free_to_payload",
+    "func": "msg.payload = Number(msg.free ?? msg.payload?.free ?? 0);\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1260,
+    "y": 180,
+    "wires": [
+      [
+        "427b96d2d5f48300"
+      ]
+    ]
+  },
+  {
+    "id": "a1b9b8734b714750",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "util_to_payload",
+    "func": "const occ = 3 - Number(msg.payload.free);\nmsg.payload = (occ / 3) * 100;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1260,
+    "y": 220,
+    "wires": [
+      [
+        "7e556ff19e5f00d0"
+      ]
+    ]
+  },
+  {
+    "id": "7e556ff19e5f00d0",
+    "type": "ui_gauge",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "",
+    "group": "169f8235595f80aa",
+    "order": 5,
+    "width": "4",
+    "height": "3",
+    "gtype": "gage",
+    "title": "Utilization",
+    "label": "units",
+    "format": "",
+    "min": 0,
+    "max": "100",
+    "colors": [
+      "#00b500",
+      "#e6e600",
+      "#ca3838"
+    ],
+    "seg1": "",
+    "seg2": "",
+    "diff": false,
+    "className": "",
+    "x": 1460,
+    "y": 220,
+    "wires": []
+  },
+  {
+    "id": "86a2886ed2656228",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "mode_to_payload",
+    "func": "// Prefer topic-based detection (most reliable)\n// Fallback to meta/payload if topic doesn't encode it\n\nconst topic = (msg.topic || \"\").toLowerCase();\nconst metaMode = (msg.meta?.mode || \"\").toString().toLowerCase();\nconst payloadMode = (msg.payload?.mode || msg.payload?.security || \"\").toString().toLowerCase();\n\nfunction isSecure(s) {\n    return s.includes(\"sec\") && !s.includes(\"non\");\n}\nfunction isNonSecure(s) {\n    return s.includes(\"non\") || s.includes(\"plain\") || s.includes(\"1883\");\n}\n\n// 1) Detect from topic (preferred)\nlet secure = false;\nlet nonsecure = false;\n\nif (topic) {\n    secure = isSecure(topic);\n    nonsecure = isNonSecure(topic) || topic.includes(\"nonsec\") || topic.includes(\"non-sec\");\n}\n\n// 2) Fallback to meta/payload\nif (!secure && !nonsecure) {\n    secure = isSecure(metaMode) || isSecure(payloadMode);\n    nonsecure = isNonSecure(metaMode) || isNonSecure(payloadMode);\n}\n\n// 3) Format output\nif (secure) {\n    msg.payload = \"🔒 SECURE (TLS)\";\n} else if (nonsecure) {\n    msg.payload = \"🔓 NON-SECURE\";\n} else {\n    msg.payload = \"UNKNOWN\";\n}\n\nreturn msg;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1270,
+    "y": 340,
+    "wires": [
+      [
+        "cd4304e1b821370c"
+      ]
+    ]
+  },
+  {
+    "id": "05b061e5694aaa49",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "ai_status_to_payload",
+    "func": "msg.payload = msg.ai?.prediction ?? \"UNKNOWN\";\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1800,
+    "y": 640,
+    "wires": [
+      [
+        "5437fc6a7eab58a9"
+      ]
+    ]
+  },
+  {
+    "id": "4c6596a83e31f9e3",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "ai_rec_to_payload",
+    "func": "msg.payload = msg.ai?.recommendation ?? \"\";\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1770,
+    "y": 680,
+    "wires": [
+      [
+        "631dbeb50e92e02a"
+      ]
+    ]
+  },
+  {
+    "id": "1812ef98b6733a4d",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "Scenario Gate",
+    "func": "msg.payload = msg.meta?.scenario || flow.get(\"active_scenario\") || \"unknown\";\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 420,
+    "y": 740,
+    "wires": [
+      [
+        "cae0ce3f38df8a5d"
+      ]
+    ]
+  },
+  {
+    "id": "cae0ce3f38df8a5d",
+    "type": "ui_text",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "group": "169f8235595f80aa",
+    "order": 1,
+    "width": "4",
+    "height": "2",
+    "name": "",
+    "label": "Scenario text",
+    "format": "{{msg.meta.scenario}}",
+    "layout": "col-center",
+    "className": "",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#000000",
+    "x": 590,
+    "y": 740,
+    "wires": []
+  },
+  {
+    "id": "959a3c679ca266c9",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "latency_to_payload",
+    "func": "msg.payload = (msg.meta && msg.meta.latency_ms != null) ? msg.meta.latency_ms : \"\";\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1710,
+    "y": 720,
+    "wires": [
+      [
+        "5a3b86b38675339b"
+      ]
+    ]
+  },
+  {
+    "id": "5a3b86b38675339b",
+    "type": "ui_text",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "group": "169f8235595f80aa",
+    "order": 3,
+    "width": "4",
+    "height": "2",
+    "name": "",
+    "label": "Cloud AI Inference Latency (ms)",
+    "format": "{{msg.payload}}",
+    "layout": "col-center",
+    "className": "",
+    "style": true,
+    "font": "",
+    "fontSize": "15",
+    "color": "#000000",
+    "x": 1950,
+    "y": 720,
+    "wires": []
+  },
+  {
+    "id": "9b08551570342377",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "rate counter",
+    "func": "const now = Date.now();\nconst sec = Math.floor(now / 1000);\nconst scenario = msg.meta?.scenario || \"UNK\";\nconst key = scenario + \":\" + sec;\n\nconst lastKey = flow.get(\"tp_key\");\nlet count = flow.get(\"tp_count\") || 0;\n\n// new second started\nif (key !== lastKey) {\n  // before reset, log the previous second if it exists\n  const prevScenario = (lastKey || \"\").split(\":\")[0];\n  const prevSec = parseInt((lastKey || \"0:0\").split(\":\")[1] || \"0\", 10);\n  const prevCount = count;\n\n  flow.set(\"tp_key\", key);\n  flow.set(\"tp_count\", 1);\n  msg.tp_mps = 1;\n\n  // emit log for previous second (skip first time)\n  if (lastKey) {\n    const ts = new Date(prevSec * 1000).toISOString();\n    const deployment = (prevScenario === \"S1\" || prevScenario === \"S2\") ? \"simulation\" : \"hardware\";\n    const security = (prevScenario === \"S2\" || prevScenario === \"S4\") ? \"tls\" : \"nonsec\";\n\n    const logMsg = {\n      payload: {\n        timestamp: ts,\n        scenario: prevScenario,\n        deployment,\n        security,\n        msg_rate: prevCount\n      }\n    };\n    return [msg, logMsg];\n  }\n  return [msg, null];\n}\n\n// same second continues\ncount += 1;\nflow.set(\"tp_count\", count);\nmsg.tp_mps = count;\nreturn [msg, null];\n",
+    "outputs": 2,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1250,
+    "y": 460,
+    "wires": [
+      [
+        "50d42cec962294c3"
+      ],
+      [
+        "6be920c2ecc33260"
+      ]
+    ]
+  },
+  {
+    "id": "fb37a10fa5193649",
+    "type": "ui_text",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "group": "169f8235595f80aa",
+    "order": 4,
+    "width": "4",
+    "height": "1",
+    "name": "",
+    "label": "MQTT Throughput (msg/s)",
+    "format": "{{msg.payload}}",
+    "layout": "col-center",
+    "className": "",
+    "style": true,
+    "font": "",
+    "fontSize": "15",
+    "color": "#000000",
+    "x": 1680,
+    "y": 460,
+    "wires": []
+  },
+  {
+    "id": "50d42cec962294c3",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "tp_to_payload",
+    "func": "msg.payload = msg.tp_mps ?? 0;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1460,
+    "y": 460,
+    "wires": [
+      [
+        "fb37a10fa5193649"
+      ]
+    ]
+  },
+  {
+    "id": "fcc77cfb414ffee0",
+    "type": "debug",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "RAW MQTT",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 130,
+    "y": 400,
+    "wires": []
+  },
+  {
+    "id": "607e7342038a8f40",
+    "type": "debug",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "PROCESS OUT",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 980,
+    "y": 160,
+    "wires": []
+  },
+  {
+    "id": "35222881fab1fc23",
+    "type": "debug",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "BEFORE AZURE",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 390,
+    "y": 880,
+    "wires": []
+  },
+  {
+    "id": "679fa4d5cff1e92a",
+    "type": "debug",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "Gate OUT",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 450,
+    "y": 320,
+    "wires": []
+  },
+  {
+    "id": "7cde77e6b851a9f8",
+    "type": "debug",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "MODE TAG OUT",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 450,
+    "y": 120,
+    "wires": []
+  },
+  {
+    "id": "114eac1c78cbba22",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "scenario_label_to_payload",
+    "func": "// Build a friendly label for dashboard (still keep S1..S4 for experiments)\nconst s = msg.meta?.scenario || \"UNK\";\n\nlet label = \"UNKNOWN\";\nif (s === \"S1\") label = \"S1 (SIM, NON-SECURE)\";\nelse if (s === \"S2\") label = \"S2 (SIM, SECURE/TLS)\";\nelse if (s === \"S3\") label = \"S3 (HW, NON-SECURE)\";\nelse if (s === \"S4\") label = \"S4 (HW, SECURE/TLS)\";\nelse if (s === \"ALL\") label = \"ALL (no gating)\";\n\nmsg.payload = label;\nreturn msg;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1300,
+    "y": 380,
+    "wires": [
+      [
+        "be4260c07a810fdd"
+      ]
+    ]
+  },
+  {
+    "id": "be4260c07a810fdd",
+    "type": "ui_text",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "group": "169f8235595f80aa",
+    "order": 2,
+    "width": "4",
+    "height": "1",
+    "name": "",
+    "label": "Scenario Label",
+    "format": "{{msg.payload}}",
+    "layout": "col-center",
+    "className": "",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#000000",
+    "x": 1540,
+    "y": 380,
+    "wires": []
+  },
+  {
+    "id": "8d21dcd6880f7cf6",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "tls_status_to_payload",
+    "func": "const s = msg.meta?.scenario || \"UNK\";\nconst isSecure = (s === \"S2\" || s === \"S4\");\n\nif (!isSecure) {\n  msg.payload = \"TLS: OFF (no certificate)\";\n  return msg;\n}\n\n// Use accurate wording: CA is used by the MQTT client when TLS is enabled\nmsg.payload = \"TLS: ON (CA certificate configured)\";\nreturn msg;\n\n\nconst scenario = msg.meta?.scenario || \"UNK\";\n\nlet text = \"TLS: UNKNOWN\";\n\nif (scenario === \"S1\" || scenario === \"S3\") {\n    text = \"TLS: OFF (no certificate)\";\n}\nelse if (scenario === \"S2\" || scenario === \"S4\") {\n    text = \"TLS: ON (CA certificate configured)\";\n}\n\nmsg.payload = text;\nreturn msg;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1280,
+    "y": 300,
+    "wires": [
+      [
+        "531133dfc5c16161"
+      ]
+    ]
+  },
+  {
+    "id": "531133dfc5c16161",
+    "type": "ui_text",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "group": "3c0d4601010d3d81",
+    "order": 3,
+    "width": "4",
+    "height": "3",
+    "name": "",
+    "label": "TLS Auth Status",
+    "format": "{{msg.payload}}",
+    "layout": "col-center",
+    "className": "",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#000000",
+    "x": 1500,
+    "y": 300,
+    "wires": []
+  },
+  {
+    "id": "c5e1701f08084e1f",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "port_to_payload",
+    "func": "const scenario = msg.meta?.scenario || \"UNK\";\n\nlet text = \"Port: UNKNOWN\";\n\nif (scenario === \"S1\" || scenario === \"S3\") {\n    text = \"Port: 1883 (MQTT)\";\n}\nelse if (scenario === \"S2\" || scenario === \"S4\") {\n    text = \"Port: 8883 (MQTT over TLS)\";\n}\n\nmsg.payload = text;\nreturn msg;\n\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1260,
+    "y": 420,
+    "wires": [
+      [
+        "cdeaedff530ad860"
+      ]
+    ]
+  },
+  {
+    "id": "cdeaedff530ad860",
+    "type": "ui_text",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "group": "3c0d4601010d3d81",
+    "order": 2,
+    "width": "4",
+    "height": "3",
+    "name": "",
+    "label": "MQTT Port",
+    "format": "{{msg.payload}}",
+    "layout": "col-center",
+    "className": "",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#000000",
+    "x": 1530,
+    "y": 420,
+    "wires": []
+  },
+  {
+    "id": "677424c23e3db64a",
+    "type": "file",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "metrics_sim_S2.csv",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/evidence/logs/metrics_sim_S2.csv",
+    "filenameType": "str",
+    "appendNewline": true,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "utf8",
+    "x": 2020,
+    "y": 280,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "8cb490e185951dae",
+    "type": "file",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "metrics_hw_S3.csv",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/evidence/logs/metrics_hw_S3.csv",
+    "filenameType": "str",
+    "appendNewline": true,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "utf8",
+    "x": 2010,
+    "y": 320,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "e2def733bf319dfa",
+    "type": "file",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "metrics_hw_S4.csv",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/evidence/logs/metrics_hw_S4.csv",
+    "filenameType": "str",
+    "appendNewline": true,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "utf8",
+    "x": 2010,
+    "y": 360,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "0124bf659302ee19",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "All CSV file function (S1–S4 router)",
+    "func": "// All CSV file function (S1–S4 router)\n// Purpose:\n//  - ensure msg.meta.csv exists (created in PROCESS)\n//  - route each message to exactly one output based on msg.meta.scenario\n//  - set msg.payload to the CSV line for File nodes\n\nif (!msg.meta || !msg.meta.csv) return [null, null, null, null];\n\nvar sc = (msg.meta.scenario !== undefined) ? String(msg.meta.scenario).trim() : \"UNKNOWN\";\n\n// payload must be the line written by File node\nmsg.payload = msg.meta.csv;\n\n// Route to one output only\nswitch (sc) {\n    case \"S1\":\n        return [msg, null, null, null];\n    case \"S2\":\n        return [null, msg, null, null];\n    case \"S3\":\n        return [null, null, msg, null];\n    case \"S4\":\n        return [null, null, null, msg];\n    default:\n        // Unknown scenario -> drop (or route to S1 if you want, but dropping is cleaner)\n        return [null, null, null, null];\n}\n",
+    "outputs": 4,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1980,
+    "y": 100,
+    "wires": [
+      [
+        "533a6504be02dc93"
+      ],
+      [
+        "677424c23e3db64a"
+      ],
+      [
+        "8cb490e185951dae"
+      ],
+      [
+        "e2def733bf319dfa"
+      ]
+    ]
+  },
+  {
+    "id": "533a6504be02dc93",
+    "type": "file",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "metrics_sim_S1.csv",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/evidence/logs/metrics_sim_S1.csv",
+    "filenameType": "str",
+    "appendNewline": true,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "utf8",
+    "x": 2020,
+    "y": 240,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "c9faf0979fcae2af",
+    "type": "catch",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Catch HTTP Request",
+    "scope": [
+      "a83f2936eed6ea76"
+    ],
+    "uncaught": false,
+    "x": 1040,
+    "y": 980,
+    "wires": [
+      [
+        "6a97aec158fa301a"
+      ]
+    ]
+  },
+  {
+    "id": "6a97aec158fa301a",
+    "type": "debug",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Debug Catch HTTP Request",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1060,
+    "y": 1020,
+    "wires": []
+  },
+  {
+    "id": "cb17aad40f83ca09",
+    "type": "status",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Status HTTP Request",
+    "scope": [
+      "a83f2936eed6ea76"
+    ],
+    "x": 1040,
+    "y": 1060,
+    "wires": [
+      [
+        "756f6bc47c32e2dd"
+      ]
+    ]
+  },
+  {
+    "id": "756f6bc47c32e2dd",
+    "type": "debug",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "Debug Status HTTP Request",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1060,
+    "y": 1100,
+    "wires": []
+  },
+  {
+    "id": "12fe7b3e4b8fc1e9",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "AI Latency Tap (flow write)",
+    "func": "// AI Latency Tap: writes AI latency into flow context for metrics CSV.\n// Non-invasive: does not modify msg.payload or msg.meta required by dashboard.\n\ntry {\n    const lat = (msg.meta && msg.meta.latency_ms !== undefined) ? Number(msg.meta.latency_ms) : null;\n\n    if (lat !== null && !isNaN(lat) && lat >= 0) {\n        flow.set(\"last_ai_latency_ms\", lat);\n        flow.set(\"last_ai_latency_ts\", (msg.meta && msg.meta.t1) ? msg.meta.t1 : Date.now());\n    }\n    } catch (e) {}\n\nreturn msg;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1980,
+    "y": 540,
+    "wires": [
+      [
+        "95e0502ce8c00622"
+      ]
+    ]
+  },
+  {
+    "id": "95e0502ce8c00622",
+    "type": "debug",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "debug AI Latency Tap (flow write)",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1980,
+    "y": 500,
+    "wires": []
+  },
+  {
+    "id": "261408696a309aa4",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "Build Recommendation (LOCKED)",
+    "func": "const pred = (msg.ai && msg.ai.prediction) ? String(msg.ai.prediction).toUpperCase() : \"UNKNOWN\";\n\nlet rec = \"\";\nif (pred === \"NORMAL\") rec = \"Parking available. Normal traffic.\";\nelse if (pred === \"BUSY\") rec = \"Moderate congestion. Consider alternate slot/entry.\";\nelse if (pred === \"CRITICAL\") rec = \"Lot near/full. Redirect to nearest parking.\";\nelse rec = \"AI unavailable. Using sensor-only status.\";\n\nmsg.ai = msg.ai || {};\nmsg.ai.recommendation = rec;\nreturn msg;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1520,
+    "y": 640,
+    "wires": [
+      [
+        "c93ce782bbb29818",
+        "4c6596a83e31f9e3",
+        "05b061e5694aaa49"
+      ]
+    ]
+  },
+  {
+    "id": "7ad1ab81b2d7f1ab",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "Extract Barrier Status",
+    "func": "// Expect msg.payload is an object (already parsed JSON)\nconst p = msg.payload || {};\nmsg.payload = p.barrier || \"UNKNOWN\";\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1720,
+    "y": 180,
+    "wires": [
+      [
+        "a8a808d52a2e04f0"
+      ]
+    ]
+  },
+  {
+    "id": "a8a808d52a2e04f0",
+    "type": "ui_text",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "group": "grp1",
+    "order": 3,
+    "width": "4",
+    "height": "1",
+    "name": "",
+    "label": "Barrier",
+    "format": "{{msg.payload}}",
+    "layout": "col-center",
+    "className": "",
+    "style": false,
+    "font": "",
+    "fontSize": 16,
+    "color": "#000000",
+    "x": 1710,
+    "y": 240,
+    "wires": []
+  },
+  {
+    "id": "07289f5d1cfd0155",
+    "type": "file",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "ch4/throughput/throughput_log.csv",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/results/ch4/throughput/throughput_log.csv",
+    "filenameType": "str",
+    "appendNewline": true,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "utf8",
+    "x": 1540,
+    "y": 500,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ad522c9845a778c7",
+    "type": "function",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "Start_E2E_Timer",
+    "func": "const perf = global.get(\"perf\");\n\nmsg.meta = msg.meta || {};\n\nmsg.meta.e2e_t0_wall = Date.now();\nmsg.meta.e2e_t0_mono = perf.now();\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 570,
+    "y": 220,
+    "wires": [
+      [
+        "json1"
+      ]
+    ]
+  },
+  {
+    "id": "54031ab010adc997",
+    "type": "file",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "ch4/raw/e2e_latency_log.csv",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/results/ch4/raw/e2e_latency_log.csv",
+    "filenameType": "str",
+    "appendNewline": true,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "utf8",
+    "x": 1960,
+    "y": 780,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "6be920c2ecc33260",
+    "type": "function",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "tp_to_CSV",
+    "func": "const p = msg.payload;\n\nif (!p || typeof p !== \"object\") {\n    return null;\n}\n\nconst timestamp =\n    p.timestamp || new Date().toISOString();\n\nconst scenario =\n    p.scenario || \"UNK\";\n\nconst deployment =\n    p.deployment || \"\";\n\nconst security =\n    p.security || \"\";\n\nconst rate =\n    Number(p.msg_rate);\n\nif (!Number.isFinite(rate)) {\n    return null;\n}\n\nmsg.payload = [\n    timestamp,\n    scenario,\n    deployment,\n    security,\n    rate\n].join(\",\") + \"\\n\";\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1290,
+    "y": 520,
+    "wires": [
+      [
+        "a1416c26bf026e44",
+        "07289f5d1cfd0155"
+      ]
+    ]
+  },
+  {
+    "id": "a1416c26bf026e44",
+    "type": "file",
+    "z": "tab1",
+    "g": "dd711467785475b6",
+    "name": "ch4/throughput/throughput.csv",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/results/ch4/throughput/throughput.csv",
+    "filenameType": "str",
+    "appendNewline": true,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "utf8",
+    "x": 1530,
+    "y": 540,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "eb559bd7f61dc9a7",
+    "type": "inject",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "Inject (every 1s or 5s)",
+    "props": [],
+    "repeat": "1",
+    "crontab": "",
+    "once": true,
+    "onceDelay": "1",
+    "topic": "",
+    "x": 140,
+    "y": 440,
+    "wires": [
+      [
+        "45fbeb5aa0e8cab6"
+      ]
+    ]
+  },
+  {
+    "id": "45fbeb5aa0e8cab6",
+    "type": "exec",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "command": "bash -lc 'read cpu u1 n1 s1 i1 w1 irq1 sirq1 st1 g1 gn1 < /proc/stat; t1=$((u1+n1+s1+i1+w1+irq1+sirq1+st1)); id1=$((i1+w1)); sleep 0.2; read cpu u2 n2 s2 i2 w2 irq2 sirq2 st2 g2 gn2 < /proc/stat; t2=$((u2+n2+s2+i2+w2+irq2+sirq2+st2)); id2=$((i2+w2)); dt=$((t2-t1)); did=$((id2-id1)); cpu=$(awk -v dt=$dt -v did=$did \"BEGIN{ if(dt<=0) print \\\"0.0\\\"; else printf \\\"%.1f\\\", (100*(dt-did)/dt)}\"); mem=$(free -m | awk \"/^Mem:/{print \\$3}\"); echo \"$cpu,$mem\"'",
+    "addpay": "",
+    "append": "",
+    "useSpawn": "false",
+    "timer": "",
+    "winHide": false,
+    "oldrc": false,
+    "name": "exec (CPU/mem)",
+    "x": 130,
+    "y": 500,
+    "wires": [
+      [
+        "bfbfac3fbbcb700d"
+      ],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "cf72206cf00d6359",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "Set payload to e2e csv",
+    "func": "msg.payload = msg.e2e_csv_line || \"\";\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1700,
+    "y": 780,
+    "wires": [
+      [
+        "54031ab010adc997"
+      ]
+    ]
+  },
+  {
+    "id": "bfbfac3fbbcb700d",
+    "type": "function",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "Attach scenario + build CSV",
+    "func": "const ts = new Date().toISOString();\nconst scenario = flow.get(\"activeScenario\") || \"ALL\";\n\n// stdout from exec should be \"cpu,mem\"\nconst out = (msg.payload || \"\").toString().trim();\nif (!out.includes(\",\")) return null;\n\nmsg.payload = `${ts},${scenario},${out}`;   // file node appends newline\nreturn msg;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 380,
+    "y": 500,
+    "wires": [
+      [
+        "14dad06dedf0ab3d"
+      ]
+    ]
+  },
+  {
+    "id": "14dad06dedf0ab3d",
+    "type": "file",
+    "z": "tab1",
+    "g": "1510ddad0e2d096b",
+    "name": "ch4/raw/resource_log.csv",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/results/ch4/security/resource_log.csv",
+    "filenameType": "str",
+    "appendNewline": true,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "utf8",
+    "x": 650,
+    "y": 500,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "899e2da869555d90",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "Stop_E2E_Timer/Build E2E CSV",
+    "func": "const perf = global.get(\"perf\");\n\nmsg.meta = msg.meta || {};\n\nconst endWall = Date.now();\nconst endMono = perf.now();\n\nlet e2e_ms = \"\";\n\nif (typeof msg.meta.e2e_t0_mono === \"number\") {\n    e2e_ms = Number(\n        (endMono - msg.meta.e2e_t0_mono).toFixed(3)\n    );\n}\n\nconst ts = new Date(endWall).toISOString();\n\nconst run_id =\n    msg.meta.run_id ||\n    flow.get(\"run_id\") ||\n    \"\";\n\nconst scenario =\n    msg.meta.scenario ||\n    flow.get(\"activeScenario\") ||\n    \"UNK\";\n\nconst mode =\n    msg.meta.mode || \"unknown\";\n\nconst ai_ms =\n    (msg.meta.ai_latency_ms !== undefined &&\n     msg.meta.ai_latency_ms !== null)\n    ? msg.meta.ai_latency_ms\n    : (flow.get(\"last_ai_latency_ms\") ?? \"\");\n\nmsg.meta.e2e_latency_ms = e2e_ms;\n\n// IMPORTANT:\n// The next node expects msg.e2e_csv_line.\n// Do NOT add \\n because the File node already appends newline.\nmsg.e2e_csv_line = [\n    ts,\n    run_id,\n    scenario,\n    mode,\n    e2e_ms,\n    ai_ms\n].join(\",\");\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1440,
+    "y": 780,
+    "wires": [
+      [
+        "cf72206cf00d6359"
+      ]
+    ]
+  },
+  {
+    "id": "c93ce782bbb29818",
+    "type": "debug",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "AFTER Build Recommendation",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "true",
+    "targetType": "full",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1850,
+    "y": 1040,
+    "wires": []
+  },
+  {
+    "id": "1f9cc43836232f1d",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "AI Aggregator + Hold (LOCKED)",
+    "func": "// AI Hold + Worst-Across-Streams (LOCKED)\n// - Never returns null (so UI cannot be overwritten by other paths)\n// - Holds worst label for HOLD_MS even if later NORMAL arrives\n// - Works across multiple topics (sim/hw, sec/nonsec)\n\nconst HOLD_MS = 30000; // 30s (stable). You can reduce later to 15000.\nconst sev = { NORMAL: 0, BUSY: 1, CRITICAL: 2 };\nconst now = Date.now();\n\n// Read incoming prediction if present\nconst incomingRaw = (msg.ai?.prediction ?? msg.payload?.prediction ?? null);\nconst incoming = incomingRaw ? String(incomingRaw).toUpperCase() : null;\n\n// Load hold state\nlet held = flow.get(\"ai_held_label\") || \"NORMAL\";\nlet heldTs = flow.get(\"ai_held_ts\") || 0;\n\n// Update hold state only if incoming is valid label\nif (incoming && (incoming in sev)) {\n  // If upgrade or same severity -> accept immediately and reset timer\n  if (sev[incoming] >= sev[held]) {\n    held = incoming;\n    heldTs = now;\n  } else {\n    // downgrade only if hold time expired\n    if ((now - heldTs) >= HOLD_MS) {\n      held = incoming;\n      heldTs = now;\n    }\n  }\n}\n\n// Persist hold state\nflow.set(\"ai_held_label\", held);\nflow.set(\"ai_held_ts\", heldTs);\n\n// FORCE outgoing prediction to held label (always)\nmsg.ai = msg.ai || {};\nmsg.ai.prediction = held;\n\n// Optional debug fields (won’t affect UI)\nmsg.ai._incoming = incoming;\nmsg.ai._held_age_ms = now - heldTs;\n\nreturn msg;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1470,
+    "y": 680,
+    "wires": [
+      [
+        "261408696a309aa4"
+      ]
+    ]
+  },
+  {
+    "id": "6f5e5a7d1c9b4a01",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S6 Experiment Logger",
+    "func": "// Dedicated S6 experiment logger.\n// This branch does not modify the legacy AI logs.\n\nconst resp =\n    (msg.payload && typeof msg.payload === \"object\")\n    ? msg.payload : {};\n\nconst probs =\n    (resp.probabilities && typeof resp.probabilities === \"object\")\n    ? resp.probabilities : {};\n\nlet confidence = \"\";\nconst pvals = Object.values(probs)\n    .map(Number)\n    .filter(Number.isFinite);\n\nif (pvals.length > 0) {\n    confidence = Math.max(...pvals);\n}\n\nconst x = Array.isArray(resp.x) ? resp.x : [];\n\nfunction csv(v) {\n    if (v === undefined || v === null) return \"\";\n    const s = String(v);\n    if (s.includes(\",\") || s.includes('\"') || s.includes(\"\\n\")) {\n        return '\"' + s.replace(/\"/g, '\"\"') + '\"';\n    }\n    return s;\n}\n\nconst ts =\n    (msg.meta && msg.meta.t1)\n    ? new Date(msg.meta.t1).toISOString()\n    : new Date().toISOString();\n\nconst row = [\n    ts,\n    (msg.meta && msg.meta.run_id) || \"\",\n    msg._msgid || \"\",\n\n    (msg.meta && msg.meta.replay_seq !== undefined)\n        ? msg.meta.replay_seq : \"\",\n\n    (msg.meta && msg.meta.source_line !== undefined)\n        ? msg.meta.source_line : \"\",\n\n    (msg.meta && msg.meta.source_epoch_ms !== undefined)\n        ? msg.meta.source_epoch_ms : \"\",\n\n    (msg.meta && msg.meta.raw_slots_bits !== undefined)\n        ? msg.meta.raw_slots_bits : \"\",\n\n    \"S6\",\n    (msg.meta && msg.meta.scenario) || \"\",\n    resp.execution_site || \"\",\n    (msg.meta && msg.meta.mode) || \"\",\n\n    msg.statusCode || \"\",\n    (msg.meta && msg.meta.latency_ms !== undefined)\n        ? msg.meta.latency_ms : \"\",\n\n    (resp.service_inference_ms !== undefined)\n        ? resp.service_inference_ms : \"\",\n\n    (resp.prediction !== undefined)\n        ? resp.prediction : \"\",\n\n    confidence,\n    JSON.stringify(probs),\n    resp.model_sha256 || \"\",\n\n    (msg.meta && msg.meta.gt_occ !== undefined)\n        ? msg.meta.gt_occ : \"\",\n\n    (msg.meta && msg.meta.gt_free !== undefined)\n        ? msg.meta.gt_free : \"\",\n\n    x.length > 0 ? x[0] : \"\",\n    x.length > 1 ? x[1] : \"\",\n    x.length > 2 ? x[2] : \"\",\n    x.length > 3 ? x[3] : \"\",\n    x.length > 4 ? x[4] : \"\",\n    x.length > 5 ? x[5] : \"\"\n];\n\nmsg.payload = row.map(csv).join(\",\") + \"\\n\";\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1620,
+    "y": 900,
+    "wires": [
+      [
+        "6f5e5a7d1c9b4a02"
+      ]
+    ]
+  },
+  {
+    "id": "6f5e5a7d1c9b4a02",
+    "type": "file",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S6 Experiment CSV",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/logs/S6_cloud/s6_experiment_log.csv",
+    "filenameType": "str",
+    "appendNewline": false,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "none",
+    "x": 1880,
+    "y": 900,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7000000000000001",
+    "type": "comment",
+    "z": "tab1",
+    "name": "S6 Load-Matched Static Cloud Baseline",
+    "info": "",
+    "x": 1320,
+    "y": 1040,
+    "wires": []
+  },
+  {
+    "id": "7000000000000002",
+    "type": "inject",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "S7 CPU Sample Trigger 500 ms",
+    "props": [
+      {
+        "p": "payload"
+      }
+    ],
+    "repeat": "0.5",
+    "crontab": "",
+    "once": true,
+    "onceDelay": "0.2",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "x": 1210,
+    "y": 1100,
+    "wires": [
+      [
+        "7000000000000003"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000003",
+    "type": "exec",
+    "z": "tab1",
+    "command": "/usr/bin/head",
+    "addpay": "",
+    "append": "-n 1 /proc/stat",
+    "useSpawn": "false",
+    "timer": "",
+    "winHide": false,
+    "oldrc": false,
+    "name": "S7 Read /proc/stat",
+    "x": 1440,
+    "y": 1100,
+    "wires": [
+      [
+        "7000000000000004"
+      ],
+      [],
+      []
+    ]
+  },
+  {
+    "id": "7000000000000004",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S7 CPU Sampler",
+    "func": "const line =\n    String(msg.payload || \"\")\n    .split(/\\r?\\n/)[0]\n    .trim();\n\nconst p = line.split(/\\s+/);\n\nif (p[0] !== \"cpu\") {\n    return null;\n}\n\nconst v =\n    p.slice(1, 9)\n     .map(Number);\n\nif (\n    v.length < 8 ||\n    !v.every(Number.isFinite)\n) {\n    return null;\n}\n\nconst total =\n    v.reduce(\n        (a, b) => a + b,\n        0\n    );\n\nconst idle =\n    v[3] + v[4];\n\nconst prevTotal =\n    Number(\n        flow.get(\n            \"s7_cpu_prev_total\"\n        )\n    );\n\nconst prevIdle =\n    Number(\n        flow.get(\n            \"s7_cpu_prev_idle\"\n        )\n    );\n\nflow.set(\n    \"s7_cpu_prev_total\",\n    total\n);\n\nflow.set(\n    \"s7_cpu_prev_idle\",\n    idle\n);\n\nif (\n    !Number.isFinite(prevTotal) ||\n    !Number.isFinite(prevIdle)\n) {\n    return null;\n}\n\nconst dt =\n    total - prevTotal;\n\nconst di =\n    idle - prevIdle;\n\nif (dt <= 0) {\n    return null;\n}\n\nlet util =\n    100 * (dt - di) / dt;\n\nutil =\n    Math.max(\n        0,\n        Math.min(\n            100,\n            util\n        )\n    );\n\nflow.set(\n    \"s7_cpu_raw_percent\",\n    util\n);\n\nflow.set(\n    \"s7_cpu_sample_ts\",\n    Date.now()\n);\n\nreturn null;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1650,
+    "y": 1100,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7000000000000010",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S6 Prepare Decision",
+    "func": "msg.meta = msg.meta || {};\n\nconst SCENARIO = \"S6\";\nconst FORCED_SITE = \"cloud\";\n\nconst seq =\n    Number(\n        msg.meta.replay_seq\n    );\n\nif (!Number.isFinite(seq)) {\n    node.error(\n        SCENARIO + \" missing replay_seq\",\n        msg\n    );\n    return null;\n}\n\nlet n =\n    Number(\n        flow.get(\n            \"s7_decision_number\"\n        )\n    );\n\nif (seq === 1) {\n\n    n = 0;\n\n    /*\n     * Internal flow-state keys retain the s7_ prefix\n     * because the static flows are derived directly\n     * from Candidate V4. They are implementation keys,\n     * not claims of adaptive behavior.\n     */\n\n    flow.set(\n        \"s7_current_site\",\n        FORCED_SITE\n    );\n\n    flow.set(\n        \"s7_edge_healthy\",\n        true\n    );\n\n    flow.set(\n        \"s7_cloud_healthy\",\n        true\n    );\n\n    flow.set(\n        \"s7_L_edge_hat\",\n        191.113\n    );\n\n    flow.set(\n        \"s7_L_cloud_hat\",\n        486.772\n    );\n\n    flow.set(\n        \"s7_CPU_hat\",\n        null\n    );\n\n    flow.set(\n        \"s7_dwell_count\",\n        0\n    );\n\n    flow.set(\n        \"s7_e2c_count\",\n        0\n    );\n\n    flow.set(\n        \"s7_c2e_count\",\n        0\n    );\n\n    flow.set(\n        \"s7_logger_header_written\",\n        false\n    );\n\n    flow.set(\n        \"s7_probe_header_written\",\n        false\n    );\n\n    const rid =\n        SCENARIO + \"_\" +\n        new Date()\n        .toISOString()\n        .replace(\n            /[:.]/g,\n            \"-\"\n        );\n\n    flow.set(\n        \"s7_run_id\",\n        rid\n    );\n}\n\nif (!Number.isFinite(n)) {\n    n = 0;\n}\n\nn += 1;\n\nif (\n    n < 1 ||\n    n > 289\n) {\n    node.error(\n        SCENARIO + \" decision outside 1..289\",\n        msg\n    );\n    return null;\n}\n\nflow.set(\n    \"s7_decision_number\",\n    n\n);\n\nconst originalPayload =\n    JSON.parse(\n        JSON.stringify(\n            msg.payload || {}\n        )\n    );\n\nmsg.s7 = {\n    decision_number: n,\n    replay_seq: seq,\n\n    run_id:\n        flow.get(\n            \"s7_run_id\"\n        ),\n\n    ai_payload:\n        originalPayload,\n\n    scenario:\n        SCENARIO,\n\n    placement_policy:\n        FORCED_SITE === \"edge\"\n        ? \"static_edge_only\"\n        : \"static_cloud_only\"\n};\n\nmsg.payload = {\n    decision_number: n,\n    replay_seq: seq\n};\n\nmsg.headers = {\n    \"Content-Type\":\n        \"application/json\"\n};\n\nmsg.method = \"POST\";\n\ndelete msg.requestTimeout;\ndelete msg.statusCode;\ndelete msg.error;\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1250,
+    "y": 1180,
+    "wires": [
+      [
+        "7000000000000011"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000011",
+    "type": "http request",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S7 Load Controller /decision",
+    "method": "POST",
+    "ret": "obj",
+    "paytoqs": "ignore",
+    "url": "http://127.0.0.1:8002/decision",
+    "tls": "",
+    "persist": false,
+    "proxy": "",
+    "insecureHTTPParser": false,
+    "authType": "",
+    "senderr": false,
+    "headers": [],
+    "x": 1480,
+    "y": 1180,
+    "wires": [
+      [
+        "7000000000000020"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000012",
+    "type": "catch",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "S7 Catch Load Controller",
+    "scope": [
+      "7000000000000011"
+    ],
+    "uncaught": false,
+    "x": 1480,
+    "y": 1230,
+    "wires": [
+      [
+        "7000000000000013"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000013",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S7 Abort",
+    "func": "const reason =\n    (\n        msg.error &&\n        msg.error.message\n    )\n    ? msg.error.message\n    : \"load-controller request failed\";\n\nflow.set(\n    \"s7_abort_reason\",\n    reason\n);\n\nnode.error(\n    \"S7 ABORT: \" + reason,\n    msg\n);\n\nreturn null;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1690,
+    "y": 1230,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7000000000000020",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S6 Forced Cloud Placement",
+    "func": "const perf =\n    global.get(\"perf\");\n\nconst SCENARIO = \"S6\";\nconst FORCED_SITE = \"cloud\";\nconst ALPHA = 0.20;\n\nconst ack =\n    (\n        msg.payload &&\n        typeof msg.payload === \"object\"\n    )\n    ? msg.payload\n    : {};\n\nif (\n    Number(msg.statusCode) !== 200 ||\n    ack.ok !== true ||\n    Number(ack.decision_number)\n        !== Number(\n            msg.s7.decision_number\n        ) ||\n    Number(ack.replay_seq)\n        !== Number(\n            msg.s7.replay_seq\n        )\n) {\n    node.error(\n        SCENARIO +\n        \" load-controller ACK invalid\",\n        msg\n    );\n\n    return null;\n}\n\n/*\n * Identical timing boundary to Candidate V4:\n * the externally controlled CPU-load transition\n * and /decision acknowledgement are excluded\n * from measured application inference latency.\n */\nmsg.s7.performance_t0_mono =\n    perf.now();\n\nmsg.s7.load_phase =\n    ack.phase || \"\";\n\nmsg.s7.load_phase_changed =\n    ack.phase_changed === true;\n\nmsg.s7.load_target_workers =\n    Number(\n        ack.target_worker_count\n    );\n\nconst cpuRaw =\n    Number(\n        flow.get(\n            \"s7_cpu_raw_percent\"\n        )\n    );\n\nconst cpuTs =\n    Number(\n        flow.get(\n            \"s7_cpu_sample_ts\"\n        )\n    );\n\nif (\n    !Number.isFinite(cpuRaw) ||\n    !Number.isFinite(cpuTs) ||\n    (Date.now() - cpuTs) > 2000\n) {\n    node.error(\n        SCENARIO +\n        \" CPU sample missing or stale\",\n        msg\n    );\n\n    return null;\n}\n\nconst cpuHatState =\n    flow.get(\n        \"s7_CPU_hat\"\n    );\n\nlet cpuHat =\n    (\n        cpuHatState === null ||\n        cpuHatState === undefined\n    )\n    ? NaN\n    : Number(cpuHatState);\n\nif (!Number.isFinite(cpuHat)) {\n    cpuHat = cpuRaw;\n}\nelse {\n    cpuHat =\n        ALPHA * cpuRaw +\n        (1 - ALPHA) * cpuHat;\n}\n\nflow.set(\n    \"s7_CPU_hat\",\n    cpuHat\n);\n\nlet Ledge =\n    Number(\n        flow.get(\n            \"s7_L_edge_hat\"\n        )\n    );\n\nlet Lcloud =\n    Number(\n        flow.get(\n            \"s7_L_cloud_hat\"\n        )\n    );\n\nif (!Number.isFinite(Ledge)) {\n    Ledge = 191.113;\n}\n\nif (!Number.isFinite(Lcloud)) {\n    Lcloud = 486.772;\n}\n\n/*\n * Static baseline:\n * placement is forced irrespective of costs,\n * health state, dwell time, or superiority state.\n */\nflow.set(\n    \"s7_current_site\",\n    FORCED_SITE\n);\n\nmsg.s7.previous_site =\n    FORCED_SITE;\n\nmsg.s7.selected_site =\n    FORCED_SITE;\n\nmsg.s7.switch_occurred =\n    false;\n\nmsg.s7.switch_reason =\n    FORCED_SITE === \"edge\"\n    ? \"static_edge_only\"\n    : \"static_cloud_only\";\n\nmsg.s7.edge_CPU_raw_percent =\n    cpuRaw;\n\nmsg.s7.edge_CPU_EWMA_percent =\n    cpuHat;\n\n/*\n * Keep latency estimates available for\n * instrumentation, but they do not participate\n * in the S5/S6 placement decision.\n */\nmsg.s7.edge_latency_EWMA_ms =\n    Ledge;\n\nmsg.s7.cloud_latency_EWMA_ms =\n    Lcloud;\n\nmsg.s7.CPU_penalty_ms =\n    \"\";\n\nmsg.s7.edge_cost_ms =\n    \"\";\n\nmsg.s7.cloud_cost_ms =\n    \"\";\n\nmsg.s7.edge_healthy_decision =\n    flow.get(\n        \"s7_edge_healthy\"\n    ) !== false;\n\nmsg.s7.cloud_healthy_decision =\n    flow.get(\n        \"s7_cloud_healthy\"\n    ) !== false;\n\nmsg.s7.dwell_count =\n    \"\";\n\nmsg.s7.superiority_count =\n    \"\";\n\nmsg.s7.primary_attempt_site =\n    FORCED_SITE;\n\nmsg.s7.primary_attempt_status =\n    \"\";\n\nmsg.s7.primary_attempt_latency_ms =\n    \"\";\n\nmsg.s7.primary_http_status =\n    \"\";\n\nmsg.s7.fallback_used =\n    false;\n\nmsg.s7.fallback_site =\n    \"\";\n\nmsg.s7.fallback_status =\n    \"\";\n\nmsg.s7.fallback_latency_ms =\n    \"\";\n\nmsg.s7.attempt_kind =\n    \"primary\";\n\nmsg.s7.attempt_site =\n    FORCED_SITE;\n\nmsg.s7.attempt_t0_mono =\n    perf.now();\n\nmsg.payload =\n    JSON.parse(\n        JSON.stringify(\n            msg.s7.ai_payload\n        )\n    );\n\nmsg.headers = {\n    \"Content-Type\":\n        \"application/json\"\n};\n\nmsg.method = \"POST\";\n\ndelete msg.statusCode;\ndelete msg.error;\n\nif (FORCED_SITE === \"cloud\") {\n\n    /*\n     * Preserve the same cloud-request configuration\n     * used by Candidate V4.\n     */\n    msg.requestTimeout =\n        1500;\n\n    return [\n        null,\n        msg\n    ];\n}\n\ndelete msg.requestTimeout;\n\nreturn [\n    msg,\n    null\n];",
+    "outputs": 2,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1730,
+    "y": 1180,
+    "wires": [
+      [
+        "7000000000000021"
+      ],
+      [
+        "7000000000000022"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000021",
+    "type": "http request",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S7 Edge Inference",
+    "method": "POST",
+    "ret": "obj",
+    "paytoqs": "ignore",
+    "url": "http://127.0.0.1:8001/predict_named",
+    "tls": "",
+    "persist": false,
+    "proxy": "",
+    "insecureHTTPParser": false,
+    "authType": "",
+    "senderr": false,
+    "headers": [],
+    "x": 1970,
+    "y": 1150,
+    "wires": [
+      [
+        "7000000000000030"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000022",
+    "type": "http request",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S7 Cloud Inference",
+    "method": "POST",
+    "ret": "obj",
+    "paytoqs": "ignore",
+    "url": "https://smart-parking-s6-cloud.onrender.com/predict_named",
+    "tls": "",
+    "persist": false,
+    "proxy": "",
+    "insecureHTTPParser": false,
+    "authType": "",
+    "senderr": false,
+    "headers": [],
+    "x": 1970,
+    "y": 1210,
+    "wires": [
+      [
+        "7000000000000030"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000023",
+    "type": "catch",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "S7 Catch Edge HTTP",
+    "scope": [
+      "7000000000000021"
+    ],
+    "uncaught": false,
+    "x": 1970,
+    "y": 1090,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7000000000000024",
+    "type": "catch",
+    "z": "tab1",
+    "g": "b8db2ce3c6194a3a",
+    "name": "S7 Catch Cloud HTTP",
+    "scope": [
+      "7000000000000022"
+    ],
+    "uncaught": false,
+    "x": 1970,
+    "y": 1270,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "7000000000000030",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S6 Static Response Router",
+    "func": "const perf =\n    global.get(\"perf\");\n\nconst SCENARIO = \"S6\";\nconst FORCED_SITE = \"cloud\";\n\nconst MODEL =\n    \"f400fb75d4ef47f0359129e4ac96cad49\" +\n    \"ae4c1694f33326014d54b977fe2855e\";\n\nconst ALPHA = 0.20;\n\nmsg.s7 =\n    msg.s7 || {};\n\nconst site =\n    msg.s7.attempt_site;\n\nif (site !== FORCED_SITE) {\n\n    node.error(\n        SCENARIO +\n        \" received unexpected execution site: \" +\n        String(site),\n        msg\n    );\n\n    return null;\n}\n\nconst t0 =\n    Number(\n        msg.s7.attempt_t0_mono\n    );\n\nconst attemptMs =\n    Number.isFinite(t0)\n    ? perf.now() - t0\n    : null;\n\nlet r =\n    msg.payload;\n\nif (typeof r === \"string\") {\n\n    try {\n        r = JSON.parse(r);\n    }\n    catch (e) {\n        r = {};\n    }\n}\n\nif (\n    !r ||\n    typeof r !== \"object\"\n) {\n    r = {};\n}\n\nconst status =\n    Number(\n        msg.statusCode\n    );\n\nconst success =\n    !msg.error &&\n    status === 200 &&\n    r.prediction !== undefined &&\n    r.model_sha256 === MODEL &&\n    r.execution_site === site;\n\n\nfunction updateLatency(\n    which,\n    observation\n) {\n\n    const key =\n        which === \"edge\"\n        ? \"s7_L_edge_hat\"\n        : \"s7_L_cloud_hat\";\n\n    let before =\n        Number(\n            flow.get(key)\n        );\n\n    if (!Number.isFinite(before)) {\n\n        before =\n            which === \"edge\"\n            ? 191.113\n            : 486.772;\n    }\n\n    const after =\n        ALPHA * observation +\n        (1 - ALPHA) * before;\n\n    flow.set(\n        key,\n        after\n    );\n\n    return after;\n}\n\n\nfunction setHealthy(\n    which,\n    value\n) {\n\n    flow.set(\n        which === \"edge\"\n        ? \"s7_edge_healthy\"\n        : \"s7_cloud_healthy\",\n        value\n    );\n}\n\n\nmsg.s7.primary_attempt_status =\n    success\n    ? \"success\"\n    : \"failed\";\n\nmsg.s7.primary_attempt_latency_ms =\n    Number.isFinite(attemptMs)\n    ? attemptMs\n    : \"\";\n\nmsg.s7.primary_http_status =\n    Number.isFinite(status)\n    ? status\n    : \"\";\n\nmsg.s7.fallback_used =\n    false;\n\nmsg.s7.fallback_site =\n    \"\";\n\nmsg.s7.fallback_status =\n    \"\";\n\nmsg.s7.fallback_latency_ms =\n    \"\";\n\n\n/*\n * The chosen static site is attempted once.\n * There is deliberately no fallback to the\n * alternative site in S5 or S6.\n */\nif (success) {\n\n    if (Number.isFinite(attemptMs)) {\n\n        updateLatency(\n            site,\n            attemptMs\n        );\n    }\n\n    setHealthy(\n        site,\n        true\n    );\n\n    msg.s7.final_success =\n        true;\n\n    msg.s7.final_execution_site =\n        site;\n\n    msg.s7.final_http_status =\n        status;\n\n    msg.s7.final_response =\n        r;\n\n    msg.payload =\n        r;\n}\nelse {\n\n    setHealthy(\n        site,\n        false\n    );\n\n    /*\n     * Retain Candidate-V4 cloud failure\n     * observation semantics for instrumentation.\n     * This does not affect static placement.\n     */\n    if (\n        site === \"cloud\"\n    ) {\n\n        updateLatency(\n            \"cloud\",\n            1500\n        );\n    }\n\n    msg.s7.final_success =\n        false;\n\n    msg.s7.final_execution_site =\n        \"\";\n\n    msg.s7.final_http_status =\n        Number.isFinite(status)\n        ? status\n        : \"\";\n\n    msg.s7.final_response =\n        {};\n\n    msg.payload =\n        {};\n}\n\n/*\n * Output 1 only.\n * Outputs 2/3 are V4 fallback routes and are\n * deliberately disabled for static baselines.\n * Output 4 is the probe logger and is also disabled.\n */\nreturn [\n    msg,\n    null,\n    null,\n    null\n];",
+    "outputs": 4,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 2210,
+    "y": 1180,
+    "wires": [
+      [
+        "7000000000000031"
+      ],
+      [
+        "7000000000000021"
+      ],
+      [
+        "7000000000000022"
+      ],
+      [
+        "7000000000000041"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000031",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S6 Finalize Actual Decision",
+    "func": "const perf =\n    global.get(\"perf\");\n\nmsg.s7 =\n    msg.s7 || {};\n\nconst start =\n    Number(\n        msg.s7.performance_t0_mono\n    );\n\nconst total =\n    Number.isFinite(start)\n    ? perf.now() - start\n    : null;\n\nmsg.s7.total_latency_ms =\n    Number.isFinite(total)\n    ? total\n    : \"\";\n\nconst r =\n    (\n        msg.s7.final_response &&\n        typeof msg.s7.final_response\n        === \"object\"\n    )\n    ? msg.s7.final_response\n    : {};\n\nmsg.s7.service_inference_ms =\n    (\n        r.service_inference_ms\n        !== undefined\n    )\n    ? r.service_inference_ms\n    : \"\";\n\nmsg.s7.prediction =\n    (\n        r.prediction !== undefined\n    )\n    ? r.prediction\n    : \"\";\n\nconst probs =\n    (\n        r.probabilities &&\n        typeof r.probabilities\n        === \"object\"\n    )\n    ? r.probabilities\n    : {};\n\nmsg.s7.probabilities =\n    probs;\n\nconst vals =\n    Object.values(probs)\n    .map(Number)\n    .filter(Number.isFinite);\n\nmsg.s7.confidence =\n    vals.length\n    ? Math.max(...vals)\n    : \"\";\n\nmsg.s7.model_sha256 =\n    r.model_sha256 || \"\";\n\nmsg.s7.edge_healthy_final =\n    flow.get(\n        \"s7_edge_healthy\"\n    ) !== false;\n\nmsg.s7.cloud_healthy_final =\n    flow.get(\n        \"s7_cloud_healthy\"\n    ) !== false;\n\nmsg.payload = r;\n\n/*\n * Output 1:\n * actual S7 performance row.\n *\n * Output 2:\n * optional non-selected-site probe.\n */\nreturn [\n    msg,\n    null\n];",
+    "outputs": 2,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 2450,
+    "y": 1150,
+    "wires": [
+      [
+        "7000000000000032"
+      ],
+      [
+        "7000000000000040"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000032",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S7 Experiment Logger",
+    "func": "msg.s7 =\n    msg.s7 || {};\n\nmsg.meta =\n    msg.meta || {};\n\nfunction csv(v) {\n\n    if (\n        v === undefined ||\n        v === null\n    ) {\n        return \"\";\n    }\n\n    const s =\n        String(v);\n\n    if (\n        s.includes(\",\") ||\n        s.includes('\"') ||\n        s.includes(\"\\n\")\n    ) {\n\n        return (\n            '\"' +\n            s.replace(\n                /\"/g,\n                '\"\"'\n            ) +\n            '\"'\n        );\n    }\n\n    return s;\n}\n\nconst columns = [\n    \"timestamp\",\n    \"run_id\",\n    \"msgid\",\n    \"decision_number\",\n    \"replay_seq\",\n    \"source_line\",\n    \"source_epoch_ms\",\n    \"raw_slots_bits\",\n    \"load_phase\",\n    \"load_phase_changed\",\n    \"load_target_workers\",\n    \"selected_site\",\n    \"previous_site\",\n    \"switch_occurred\",\n    \"switch_reason\",\n    \"edge_CPU_raw_percent\",\n    \"edge_CPU_EWMA_percent\",\n    \"edge_latency_EWMA_ms\",\n    \"cloud_latency_EWMA_ms\",\n    \"CPU_penalty_ms\",\n    \"edge_cost_ms\",\n    \"cloud_cost_ms\",\n    \"edge_healthy_decision\",\n    \"cloud_healthy_decision\",\n    \"edge_healthy_final\",\n    \"cloud_healthy_final\",\n    \"dwell_count\",\n    \"superiority_count\",\n    \"primary_attempt_site\",\n    \"primary_attempt_status\",\n    \"primary_attempt_latency_ms\",\n    \"primary_http_status\",\n    \"fallback_used\",\n    \"fallback_site\",\n    \"fallback_status\",\n    \"fallback_latency_ms\",\n    \"final_success\",\n    \"final_execution_site\",\n    \"total_latency_ms\",\n    \"service_inference_ms\",\n    \"prediction\",\n    \"confidence\",\n    \"probabilities_json\",\n    \"model_sha256\"\n];\n\nconst values = [\n    new Date().toISOString(),\n\n    msg.s7.run_id || \"\",\n\n    msg._msgid || \"\",\n\n    msg.s7.decision_number ?? \"\",\n\n    msg.meta.replay_seq ?? \"\",\n\n    msg.meta.source_line ?? \"\",\n\n    msg.meta.source_epoch_ms ?? \"\",\n\n    msg.meta.raw_slots_bits ?? \"\",\n\n    msg.s7.load_phase || \"\",\n\n    msg.s7.load_phase_changed\n        ? 1\n        : 0,\n\n    msg.s7.load_target_workers ?? \"\",\n\n    msg.s7.selected_site || \"\",\n\n    msg.s7.previous_site || \"\",\n\n    msg.s7.switch_occurred\n        ? 1\n        : 0,\n\n    msg.s7.switch_reason || \"\",\n\n    msg.s7.edge_CPU_raw_percent ?? \"\",\n\n    msg.s7.edge_CPU_EWMA_percent ?? \"\",\n\n    msg.s7.edge_latency_EWMA_ms ?? \"\",\n\n    msg.s7.cloud_latency_EWMA_ms ?? \"\",\n\n    msg.s7.CPU_penalty_ms ?? \"\",\n\n    msg.s7.edge_cost_ms ?? \"\",\n\n    msg.s7.cloud_cost_ms ?? \"\",\n\n    msg.s7.edge_healthy_decision\n        ? 1\n        : 0,\n\n    msg.s7.cloud_healthy_decision\n        ? 1\n        : 0,\n\n    msg.s7.edge_healthy_final\n        ? 1\n        : 0,\n\n    msg.s7.cloud_healthy_final\n        ? 1\n        : 0,\n\n    msg.s7.dwell_count ?? \"\",\n\n    msg.s7.superiority_count ?? \"\",\n\n    msg.s7.primary_attempt_site || \"\",\n\n    msg.s7.primary_attempt_status || \"\",\n\n    msg.s7.primary_attempt_latency_ms ?? \"\",\n\n    msg.s7.primary_http_status ?? \"\",\n\n    msg.s7.fallback_used\n        ? 1\n        : 0,\n\n    msg.s7.fallback_site || \"\",\n\n    msg.s7.fallback_status || \"\",\n\n    msg.s7.fallback_latency_ms ?? \"\",\n\n    msg.s7.final_success\n        ? 1\n        : 0,\n\n    msg.s7.final_execution_site || \"\",\n\n    msg.s7.total_latency_ms ?? \"\",\n\n    msg.s7.service_inference_ms ?? \"\",\n\n    msg.s7.prediction || \"\",\n\n    msg.s7.confidence ?? \"\",\n\n    JSON.stringify(\n        msg.s7.probabilities || {}\n    ),\n\n    msg.s7.model_sha256 || \"\"\n];\n\nlet line =\n    values.map(csv)\n    .join(\",\") +\n    \"\\n\";\n\nif (\n    flow.get(\n        \"s7_logger_header_written\"\n    ) !== true\n) {\n\n    line =\n        columns.join(\",\") +\n        \"\\n\" +\n        line;\n\n    flow.set(\n        \"s7_logger_header_written\",\n        true\n    );\n}\n\nmsg.payload = line;\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 2680,
+    "y": 1120,
+    "wires": [
+      [
+        "7000000000000033"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000033",
+    "type": "file",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S6 Matched Experiment CSV",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/logs/S6_matched/s6_experiment_log.csv",
+    "filenameType": "str",
+    "appendNewline": false,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "none",
+    "x": 2910,
+    "y": 1120,
+    "wires": [
+      [
+        "7000000000000051"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000040",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S6 Probe Router DISABLED",
+    "func": "/*\n * Static S5/S6 baseline:\n * non-selected-site probing is intentionally disabled.\n */\nreturn [null, null];",
+    "outputs": 2,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 2680,
+    "y": 1190,
+    "wires": [
+      [
+        "7000000000000021"
+      ],
+      [
+        "7000000000000022"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000041",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S7 Probe Logger",
+    "func": "msg.s7 =\n    msg.s7 || {};\n\nfunction csv(v) {\n\n    if (\n        v === undefined ||\n        v === null\n    ) {\n        return \"\";\n    }\n\n    const s =\n        String(v);\n\n    if (\n        s.includes(\",\") ||\n        s.includes('\"') ||\n        s.includes(\"\\n\")\n    ) {\n\n        return (\n            '\"' +\n            s.replace(\n                /\"/g,\n                '\"\"'\n            ) +\n            '\"'\n        );\n    }\n\n    return s;\n}\n\nconst columns = [\n    \"timestamp\",\n    \"run_id\",\n    \"decision_number\",\n    \"replay_seq\",\n    \"probe_site\",\n    \"probe_for_current_site\",\n    \"probe_success\",\n    \"probe_http_status\",\n    \"probe_latency_ms\",\n    \"probe_service_inference_ms\",\n    \"prediction\",\n    \"model_sha256\",\n    \"site_latency_EWMA_before\",\n    \"site_latency_EWMA_after\",\n    \"site_health_before\",\n    \"site_health_after\",\n    \"included_in_performance_dataset\"\n];\n\nconst values = [\n    new Date().toISOString(),\n\n    msg.s7.run_id || \"\",\n\n    msg.s7.decision_number ?? \"\",\n\n    msg.s7.replay_seq ?? \"\",\n\n    msg.s7.probe_site || \"\",\n\n    msg.s7.probe_for_current_site || \"\",\n\n    msg.s7.probe_success\n        ? 1\n        : 0,\n\n    msg.s7.probe_http_status ?? \"\",\n\n    msg.s7.probe_latency_ms ?? \"\",\n\n    msg.s7.probe_service_inference_ms ?? \"\",\n\n    msg.s7.probe_prediction || \"\",\n\n    msg.s7.probe_model_sha256 || \"\",\n\n    msg.s7.probe_latency_EWMA_before ?? \"\",\n\n    msg.s7.probe_latency_EWMA_after ?? \"\",\n\n    msg.s7.probe_health_before\n        ? 1\n        : 0,\n\n    msg.s7.probe_health_after\n        ? 1\n        : 0,\n\n    \"NO\"\n];\n\nlet line =\n    values.map(csv)\n    .join(\",\") +\n    \"\\n\";\n\nif (\n    flow.get(\n        \"s7_probe_header_written\"\n    ) !== true\n) {\n\n    line =\n        columns.join(\",\") +\n        \"\\n\" +\n        line;\n\n    flow.set(\n        \"s7_probe_header_written\",\n        true\n    );\n}\n\nmsg.payload = line;\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 2450,
+    "y": 1280,
+    "wires": [
+      [
+        "7000000000000042"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000042",
+    "type": "file",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S6 UNUSED Probe CSV",
+    "filename": "/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/logs/S6_matched/s6_probe_UNEXPECTED.csv",
+    "filenameType": "str",
+    "appendNewline": false,
+    "createDir": true,
+    "overwriteFile": "false",
+    "encoding": "none",
+    "x": 2680,
+    "y": 1280,
+    "wires": [
+      [
+        "7000000000000051"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000050",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S7 Serialization Gate",
+    "func": "msg = msg || {};\n\nlet queue =\n    context.get(\n        \"s7_serial_queue\"\n    );\n\nif (!Array.isArray(queue)) {\n    queue = [];\n}\n\nlet busy =\n    context.get(\n        \"s7_serial_busy\"\n    ) === true;\n\nlet activeSeq =\n    Number(\n        context.get(\n            \"s7_serial_active_replay_seq\"\n        )\n    );\n\n\nfunction saveState() {\n\n    context.set(\n        \"s7_serial_queue\",\n        queue\n    );\n\n    context.set(\n        \"s7_serial_busy\",\n        busy\n    );\n\n    context.set(\n        \"s7_serial_active_replay_seq\",\n        Number.isFinite(activeSeq)\n            ? activeSeq\n            : null\n    );\n\n    context.set(\n        \"s7_serial_queue_depth\",\n        queue.length\n    );\n}\n\n\n/*\n * Completion/release path.\n */\nif (\n    msg._s7_serialization_release\n    === true\n) {\n\n    const releaseSeq =\n        Number(\n            msg.s7 &&\n            msg.s7.replay_seq\n        );\n\n    if (!busy) {\n\n        node.error(\n            \"S7 serialization release received while gate is idle\",\n            msg\n        );\n\n        return null;\n    }\n\n    if (\n        !Number.isFinite(releaseSeq) ||\n        !Number.isFinite(activeSeq) ||\n        releaseSeq !== activeSeq\n    ) {\n\n        node.error(\n            \"S7 serialization release replay_seq mismatch\",\n            msg\n        );\n\n        return null;\n    }\n\n    busy = false;\n    activeSeq = NaN;\n\n    if (queue.length === 0) {\n\n        saveState();\n\n        return null;\n    }\n\n    const next =\n        queue.shift();\n\n    const nextSeq =\n        Number(\n            next.meta &&\n            next.meta.replay_seq\n        );\n\n    if (!Number.isFinite(nextSeq)) {\n\n        node.error(\n            \"S7 queued message missing replay_seq\",\n            next\n        );\n\n        /*\n         * Fail closed. Do not release another message\n         * because queue identity is no longer trustworthy.\n         */\n\n        saveState();\n\n        return null;\n    }\n\n    busy = true;\n    activeSeq = nextSeq;\n\n    saveState();\n\n    return next;\n}\n\n\n/*\n * New logical inference candidate from deterministic sampler.\n */\nconst seq =\n    Number(\n        msg.meta &&\n        msg.meta.replay_seq\n    );\n\nif (!Number.isFinite(seq)) {\n\n    node.error(\n        \"S7 serialization candidate missing replay_seq\",\n        msg\n    );\n\n    return null;\n}\n\n\n/*\n * Explicit replay reset.\n *\n * This mirrors the existing replay_seq=1 reset semantics\n * used elsewhere in the frozen S7 flow.\n */\nif (seq === 1) {\n\n    queue = [];\n    busy = false;\n    activeSeq = NaN;\n\n    context.set(\n        \"s7_serial_last_released_replay_seq\",\n        null\n    );\n}\n\n\nif (busy) {\n\n    queue.push(msg);\n\n    saveState();\n\n    return null;\n}\n\n\nbusy = true;\nactiveSeq = seq;\n\nsaveState();\n\nreturn msg;\n",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 1070,
+    "y": 1280,
+    "wires": [
+      [
+        "7000000000000010"
+      ]
+    ]
+  },
+  {
+    "id": "7000000000000051",
+    "type": "function",
+    "z": "tab1",
+    "g": "d938aa8fdac1ae6e",
+    "name": "S6 Serialization Release",
+    "func": "msg.s7 =\n    msg.s7 || {};\n\nconst SCENARIO =\n    \"S6\";\n\nconst n =\n    Number(\n        msg.s7.decision_number\n    );\n\nconst seq =\n    Number(\n        msg.s7.replay_seq\n    );\n\nif (\n    !Number.isFinite(n) ||\n    !Number.isFinite(seq)\n) {\n\n    node.error(\n        SCENARIO +\n        \" serialization completion missing identity\",\n        msg\n    );\n\n    return null;\n}\n\n/*\n * Static baselines do not execute alternative-site\n * probes. Therefore every completed actual CSV row\n * releases the serialization gate immediately.\n */\nif (\n    msg.s7.attempt_kind === \"probe\"\n) {\n\n    node.error(\n        SCENARIO +\n        \" unexpected probe completion\",\n        msg\n    );\n\n    return null;\n}\n\nmsg._s7_serialization_release =\n    true;\n\nmsg.payload = {\n    serialization_release: true,\n    decision_number: n,\n    replay_seq: seq,\n    release_after:\n        \"actual_csv\"\n};\n\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 2150,
+    "y": 1480,
+    "wires": [
+      [
+        "7000000000000050"
+      ]
+    ]
+  }
+]

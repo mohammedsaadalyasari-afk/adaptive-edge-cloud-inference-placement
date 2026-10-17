@@ -1,0 +1,8 @@
+phase,n_runs,decisions_total,selected_edge_total,selected_cloud_total,selected_edge_pct_all_decisions,selected_cloud_pct_all_decisions,switches_total,fallbacks_total,primary_failures_total
+L0_BASELINE,10,400,400,0,100.000000,0.000000,0,0,0
+L1_STABLE,10,400,400,0,100.000000,0.000000,0,0,0
+L2_ONSET,10,400,367,33,91.750000,8.250000,2,0,0
+L3_SATURATION,10,500,169,331,33.800000,66.200000,7,1,1
+L4_RECOVERY,10,400,336,64,84.000000,16.000000,7,0,0
+L5_REOVERLOAD,10,400,154,246,38.500000,61.500000,14,3,3
+L6_FINAL_RECOVERY,10,390,350,40,89.743590,10.256410,8,0,0

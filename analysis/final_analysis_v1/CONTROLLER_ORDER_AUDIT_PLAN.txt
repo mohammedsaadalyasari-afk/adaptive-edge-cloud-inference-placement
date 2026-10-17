@@ -1,0 +1,23 @@
+FINAL CONTROLLER-ORDER AUDIT
+============================
+
+This is a read-only integrity audit.
+
+For every one of the 30 final experimental runs:
+
+1. Load the frozen 289-row CPU-load schedule.
+2. Load the archived load_controller_events.jsonl file.
+3. Require exactly:
+   - 1 controller_start event
+   - 7 phase_transition events
+   - 289 decision_applied events
+   - 1 controller_stop event
+4. Verify the ordered decision_applied sequence against the
+   frozen schedule.
+5. decision_number and replay_seq are mandatory and must
+   match exactly for all 289 decisions.
+6. Where present in the event schema, source_line, phase and
+   worker count are additionally checked exactly.
+7. Failure to extract decision_number or replay_seq from any
+   decision_applied event fails the audit.
+8. No experiment or raw measurement is modified.

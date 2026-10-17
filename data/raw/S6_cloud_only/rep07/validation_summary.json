@@ -1,0 +1,100 @@
+{
+  "scenario": "S6",
+  "validator_version": "final_matched_run_v1",
+  "logical_decisions": 289,
+  "published_rows": 1396,
+  "run_ids": [
+    "S6_2026-10-09T12-25-50-259Z"
+  ],
+  "decision_order_pass": true,
+  "selected_sites": {
+    "cloud": 289
+  },
+  "primary_sites": {
+    "cloud": 289
+  },
+  "final_sites": {
+    "cloud": 284,
+    "": 5
+  },
+  "successful_decisions": 284,
+  "failed_decisions": 5,
+  "success_rate_percent": 98.26989619377161,
+  "primary_failures": 5,
+  "fallbacks": 0,
+  "primary_failure_ids": [
+    92,
+    138,
+    139,
+    140,
+    141
+  ],
+  "fallback_ids": [],
+  "failed_ids": [
+    92,
+    138,
+    139,
+    140,
+    141
+  ],
+  "switches": 0,
+  "switch_reason_counts": {
+    "static_cloud_only": 289
+  },
+  "cost_edge_to_cloud": 0,
+  "cost_cloud_to_edge": 0,
+  "failure_related_switches": 0,
+  "probe_rows": 0,
+  "probe_successes": 0,
+  "probe_failures": 0,
+  "phase_counts": {
+    "L0_BASELINE": 40,
+    "L1_STABLE": 40,
+    "L2_ONSET": 40,
+    "L3_SATURATION": 50,
+    "L4_RECOVERY": 40,
+    "L5_REOVERLOAD": 40,
+    "L6_FINAL_RECOVERY": 39
+  },
+  "worker_target_counts": {
+    "0": 79,
+    "4": 80,
+    "6": 40,
+    "8": 90
+  },
+  "controller_event_counts": {
+    "controller_start": 1,
+    "phase_transition": 7,
+    "decision_applied": 289,
+    "controller_stop": 1
+  },
+  "prediction_checks": 284,
+  "prediction_mismatches": 0,
+  "model_sha_checks": 284,
+  "model_sha_mismatches": 0,
+  "total_latency_all": {
+    "n": 289,
+    "mean": 422.15394949155075,
+    "median": 384.54474499821663,
+    "p95": 539.5244164019825,
+    "p99": 1538.350138078928,
+    "max": 1571.4694070070982
+  },
+  "total_latency_success": {
+    "n": 284,
+    "mean": 402.4481421199063,
+    "median": 384.3955030068755,
+    "p95": 520.0491253547374,
+    "p99": 1150.8055385848897,
+    "max": 1488.0581459999084
+  },
+  "service_latency_success": {
+    "n": 284,
+    "mean": 167.3849819225352,
+    "median": 168.542766,
+    "p95": 210.4918834,
+    "p99": 292.6292320200002,
+    "max": 807.984848
+  },
+  "validation_errors": []
+}

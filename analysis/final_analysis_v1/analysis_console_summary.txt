@@ -1,0 +1,52 @@
+
+================================================
+FINAL CONTROLLER-ORDER AUDIT
+================================================
+Final runs audited             : 30
+decision_applied events audited: 8670
+decision_number exact order    : PASS
+replay_seq exact order         : PASS
+source_line verification events: 0
+phase verification events      : 8670
+worker verification events     : 8670
+
+CONTROLLER_ORDER_AUDIT=PASS
+
+================================================
+FINAL MATCHED ANALYSIS
+================================================
+Evidence hash entries verified : 430
+Master logical decisions       : 8670
+S5 decisions                   : 2890
+S6 decisions                   : 2890
+S7 decisions                   : 2890
+S7 probes (excluded primary)   : 280
+
+RUN-LEVEL SUMMARY (mean ± SD across 10 runs)
+S5: mean=128.219±12.521 ms | median=86.349±8.536 ms | P95=291.227±41.472 ms | P99=457.518±145.613 ms | success=100.000±0.000% | final_failures=0
+S6: mean=474.255±78.576 ms | median=407.308±30.524 ms | P95=859.228±406.304 ms | P99=1376.243±504.722 ms | success=97.370±4.332% | final_failures=76
+S7: mean=188.604±23.508 ms | median=92.921±10.921 ms | P95=470.617±69.083 ms | P99=636.452±144.071 ms | success=100.000±0.000% | final_failures=0
+
+PRIMARY PAIRED COMPARISON: S7 vs S6
+total_mean_ms: reduction=59.385% [95% CI 54.668, 63.916] | S7 lower in 10/10 blocks
+total_median_ms: reduction=77.079% [95% CI 75.175, 78.799] | S7 lower in 10/10 blocks
+total_p95_ms: reduction=35.413% [95% CI 20.030, 50.625] | S7 lower in 9/10 blocks
+total_p99_ms: reduction=48.171% [95% CI 35.984, 59.342] | S7 lower in 10/10 blocks
+success rate S7-S6 = 2.630 pp [95% CI 0.692, 5.536]
+
+SECONDARY PAIRED COMPARISON: S7 vs S5
+total_mean_ms: reduction=-48.055% [95% CI -59.267, -35.195] | S7 lower in 0/10 blocks
+total_median_ms: reduction=-7.722% [95% CI -12.474, -3.278] | S7 lower in 1/10 blocks
+total_p95_ms: reduction=-64.812% [95% CI -82.608, -44.455] | S7 lower in 1/10 blocks
+total_p99_ms: reduction=-49.762% [95% CI -79.138, -20.895] | S7 lower in 2/10 blocks
+
+S7 ADAPTIVE BEHAVIOR
+edge=2176/2890 (75.294%) | cloud=714/2890 (24.706%)
+switches=38 | cost E->C=19 | cost C->E=15 | failure-related=4
+primary failures=4 | fallbacks=4 | fallback successes=4 | final failures=0
+S7 probes=266/280 successful
+
+Analysis directory:
+/mnt/d/ESDE/Publications/ClusterComputing/Newimpimantation/evidence/S5_S6_S7_LOAD_MATCHED_V1_20261008/03_final_matched_campaign/aggregate/final_analysis_v1
+
+FINAL_ANALYSIS_COMPLETE=PASS

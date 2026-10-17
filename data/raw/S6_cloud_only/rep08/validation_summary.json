@@ -1,0 +1,87 @@
+{
+  "scenario": "S6",
+  "validator_version": "final_matched_run_v1",
+  "logical_decisions": 289,
+  "published_rows": 1396,
+  "run_ids": [
+    "S6_2026-10-09T12-37-03-526Z"
+  ],
+  "decision_order_pass": true,
+  "selected_sites": {
+    "cloud": 289
+  },
+  "primary_sites": {
+    "cloud": 289
+  },
+  "final_sites": {
+    "cloud": 289
+  },
+  "successful_decisions": 289,
+  "failed_decisions": 0,
+  "success_rate_percent": 100.0,
+  "primary_failures": 0,
+  "fallbacks": 0,
+  "primary_failure_ids": [],
+  "fallback_ids": [],
+  "failed_ids": [],
+  "switches": 0,
+  "switch_reason_counts": {
+    "static_cloud_only": 289
+  },
+  "cost_edge_to_cloud": 0,
+  "cost_cloud_to_edge": 0,
+  "failure_related_switches": 0,
+  "probe_rows": 0,
+  "probe_successes": 0,
+  "probe_failures": 0,
+  "phase_counts": {
+    "L0_BASELINE": 40,
+    "L1_STABLE": 40,
+    "L2_ONSET": 40,
+    "L3_SATURATION": 50,
+    "L4_RECOVERY": 40,
+    "L5_REOVERLOAD": 40,
+    "L6_FINAL_RECOVERY": 39
+  },
+  "worker_target_counts": {
+    "0": 79,
+    "4": 80,
+    "6": 40,
+    "8": 90
+  },
+  "controller_event_counts": {
+    "controller_start": 1,
+    "phase_transition": 7,
+    "decision_applied": 289,
+    "controller_stop": 1
+  },
+  "prediction_checks": 289,
+  "prediction_mismatches": 0,
+  "model_sha_checks": 289,
+  "model_sha_mismatches": 0,
+  "total_latency_all": {
+    "n": 289,
+    "mean": 402.1337966580704,
+    "median": 383.49819199740887,
+    "p95": 518.4626057952644,
+    "p99": 846.1150868892698,
+    "max": 1686.2565290033817
+  },
+  "total_latency_success": {
+    "n": 289,
+    "mean": 402.1337966580704,
+    "median": 383.49819199740887,
+    "p95": 518.4626057952644,
+    "p99": 846.1150868892698,
+    "max": 1686.2565290033817
+  },
+  "service_latency_success": {
+    "n": 289,
+    "mean": 165.17697056055363,
+    "median": 166.101778,
+    "p95": 211.8485394,
+    "p99": 273.5613371600001,
+    "max": 303.948407
+  },
+  "validation_errors": []
+}

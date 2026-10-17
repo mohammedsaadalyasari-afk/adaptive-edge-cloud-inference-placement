@@ -1,0 +1,47 @@
+# Environment and package caches
+.venv/
+venv/
+env/
+node_modules/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Credentials and private configuration
+.env
+.env.*
+*.secret
+*.secrets
+credentials.json
+*credentials*.bak
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+.ssh/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large development backup images (not research data)
+*.img
+*.vhd
+*.vhdx
+*.qcow2
+*.iso
+*.tar.gz
+*.7z
+
+# Excluded publication figure images (per release plan)
+results/figures/
+
+# IMPORTANT: This list is not a security scanner. Inspect all files before push.

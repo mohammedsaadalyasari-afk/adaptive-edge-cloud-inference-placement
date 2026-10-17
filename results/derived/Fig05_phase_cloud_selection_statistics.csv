@@ -1,0 +1,8 @@
+phase,target_cpu_workers,start_decision,end_decision,cloud_decisions,total_decisions,cloud_selection_pct
+L0,0,1,40,0,400,0.0
+L1,4,41,80,0,400,0.0
+L2,6,81,120,33,400,8.25
+L3,8,121,170,331,500,66.2
+L4,4,171,210,64,400,16.0
+L5,8,211,250,246,400,61.5
+L6,0,251,289,40,390,10.25641

@@ -1,0 +1,21 @@
+{
+  "analysis_version": "final_analysis_v1",
+  "bootstrap_replications": 50000,
+  "bootstrap_seed": 20261010,
+  "inferential_unit": "matched run/block",
+  "n_runs_per_strategy": 10,
+  "n_matched_blocks": 10,
+  "n_decisions_per_run": 289,
+  "n_decisions_per_strategy": 2890,
+  "n_decisions_total": 8670,
+  "n_S7_probes_total": 280,
+  "primary_comparison": "S7 adaptive vs S6 cloud-only",
+  "secondary_comparison": "S7 adaptive vs S5 edge-only",
+  "primary_latency_estimand": "failure-inclusive total_latency_ms over all logical decisions",
+  "validation_runs_included": false,
+  "S7_probes_in_primary_latency": false,
+  "hash_manifest_entries_verified": 430,
+  "controller_runs_audited": 30,
+  "controller_decision_events_audited": 8670,
+  "controller_order_audit_pass": true
+}

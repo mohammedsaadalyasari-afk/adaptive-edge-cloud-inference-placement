@@ -1,0 +1,4 @@
+strategy,runs_n,decisions_total,final_failures_total,run_mean_latency_ms_mean,run_mean_latency_ms_sd,run_median_latency_ms_mean,run_median_latency_ms_sd,run_p95_latency_ms_mean,run_p95_latency_ms_sd,run_p99_latency_ms_mean,run_p99_latency_ms_sd,run_success_rate_pct_mean,run_success_rate_pct_sd
+S5,10,2890,0,128.218936,12.520876,86.348803,8.536319,291.227168,41.471641,457.518204,145.612841,100.000000,0.000000
+S6,10,2890,76,474.255231,78.576156,407.307523,30.524426,859.227624,406.303952,1376.242574,504.721846,97.370242,4.331637
+S7,10,2890,0,188.603612,23.508047,92.921160,10.920644,470.617127,69.082781,636.451580,144.070705,100.000000,0.000000

@@ -1,0 +1,99 @@
+{
+  "scenario": "S7",
+  "validator_version": "final_matched_run_v1",
+  "logical_decisions": 289,
+  "published_rows": 1396,
+  "run_ids": [
+    "S7_2026-10-09T11-20-56-659Z"
+  ],
+  "decision_order_pass": true,
+  "selected_sites": {
+    "edge": 229,
+    "cloud": 60
+  },
+  "primary_sites": {
+    "edge": 229,
+    "cloud": 60
+  },
+  "final_sites": {
+    "edge": 231,
+    "cloud": 58
+  },
+  "successful_decisions": 289,
+  "failed_decisions": 0,
+  "success_rate_percent": 100.0,
+  "primary_failures": 2,
+  "fallbacks": 2,
+  "primary_failure_ids": [
+    219,
+    241
+  ],
+  "fallback_ids": [
+    219,
+    241
+  ],
+  "failed_ids": [],
+  "switches": 6,
+  "switch_reason_counts": {
+    "none": 283,
+    "cost_hysteresis_edge_to_cloud": 3,
+    "cost_hysteresis_cloud_to_edge": 1,
+    "failover_cloud_to_edge": 2
+  },
+  "cost_edge_to_cloud": 3,
+  "cost_cloud_to_edge": 1,
+  "failure_related_switches": 2,
+  "probe_rows": 28,
+  "probe_successes": 26,
+  "probe_failures": 2,
+  "phase_counts": {
+    "L0_BASELINE": 40,
+    "L1_STABLE": 40,
+    "L2_ONSET": 40,
+    "L3_SATURATION": 50,
+    "L4_RECOVERY": 40,
+    "L5_REOVERLOAD": 40,
+    "L6_FINAL_RECOVERY": 39
+  },
+  "worker_target_counts": {
+    "0": 79,
+    "4": 80,
+    "6": 40,
+    "8": 90
+  },
+  "controller_event_counts": {
+    "controller_start": 1,
+    "phase_transition": 7,
+    "decision_applied": 289,
+    "controller_stop": 1
+  },
+  "prediction_checks": 289,
+  "prediction_mismatches": 0,
+  "model_sha_checks": 289,
+  "model_sha_mismatches": 0,
+  "total_latency_all": {
+    "n": 289,
+    "mean": 170.64766122849343,
+    "median": 83.53193999826908,
+    "p95": 439.51884480118764,
+    "p99": 588.9607182365661,
+    "max": 1740.9784380048513
+  },
+  "total_latency_success": {
+    "n": 289,
+    "mean": 170.64766122849343,
+    "median": 83.53193999826908,
+    "p95": 439.51884480118764,
+    "p99": 588.9607182365661,
+    "max": 1740.9784380048513
+  },
+  "service_latency_success": {
+    "n": 289,
+    "mean": 93.05845740484429,
+    "median": 67.415697,
+    "p95": 195.57985180000003,
+    "p99": 213.86457176000005,
+    "max": 312.473985
+  },
+  "validation_errors": []
+}

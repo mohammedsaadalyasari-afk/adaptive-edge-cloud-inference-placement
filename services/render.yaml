@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: smart-parking-s6-cloud
+    runtime: python
+    region: frankfurt
+    plan: free
+
+    buildCommand: python -m pip install --no-cache-dir -r requirements.txt
+
+    startCommand: uvicorn s6_cloud_service:app --host 0.0.0.0 --port $PORT
+
+    healthCheckPath: /health
+
+    autoDeployTrigger: 'off'
+
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.19
+
+      - key: EXECUTION_SITE
+        value: cloud

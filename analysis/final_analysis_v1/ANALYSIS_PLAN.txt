@@ -1,0 +1,131 @@
+FINAL MATCHED CAMPAIGN ANALYSIS PLAN
+====================================
+
+Experimental data
+-----------------
+Final campaign only.
+
+S5 = 10 repetitions.
+S6 = 10 repetitions.
+S7 = 10 repetitions.
+
+Each run contains 289 logical inference decisions.
+
+Validation runs and incomplete attempts are excluded.
+
+Inferential unit
+----------------
+One complete matched experimental block/run.
+
+n = 10 matched blocks per strategy.
+
+The 2,890 logical decisions per strategy are NOT treated
+as 2,890 statistically independent observations.
+
+Pairing
+-------
+S5, S6, and S7 repetitions with the same block/repetition
+number form one matched block.
+
+Primary comparison
+------------------
+S7 adaptive versus S6 cloud-only.
+
+Secondary comparison
+---------------------
+S7 adaptive versus S5 edge-only.
+
+Primary latency estimand
+------------------------
+total_latency_ms across ALL logical decisions.
+
+Genuine timeout/failure decisions remain in the primary
+analysis using their observed elapsed total_latency_ms.
+
+Failure rows are not silently discarded.
+
+Primary latency metrics
+-----------------------
+Mean latency.
+Median latency.
+P95 latency.
+P99 latency.
+
+Reliability
+-----------
+Final logical-decision success rate is reported jointly
+with latency.
+
+Secondary latency views
+-----------------------
+Successful-response total latency.
+
+Successful-response service inference latency.
+
+Statistical inference
+---------------------
+Paired run-level / block-level analysis.
+
+50,000 paired block-bootstrap replications.
+
+Fixed random seed:
+20261010
+
+95% percentile bootstrap confidence intervals.
+
+Within each matched block, percentage latency reduction is:
+
+100 * (baseline - S7) / baseline
+
+The mean of these ten paired reductions is the primary
+percentage-reduction estimator.
+
+Absolute paired differences are also retained.
+
+Pooled decision-level analysis
+------------------------------
+2,890 decisions per strategy are pooled only for descriptive
+distribution summaries.
+
+These pooled observations are not used as independent
+inferential units.
+
+Load phases
+-----------
+L0 through L6 are evaluated as secondary phase-wise results.
+
+The phrase used is:
+
+"same externally imposed CPU-load schedule/profile"
+
+Measured CPU utilization is not assumed identical across
+strategies.
+
+S7 probes
+---------
+28 probes per S7 run.
+
+280 probes across 10 S7 repetitions.
+
+Probe requests are excluded from the primary performance
+latency dataset.
+
+Probe results are retained as controller-observability
+evidence.
+
+Adaptive-controller behavior
+----------------------------
+Report:
+
+edge selections,
+cloud selections,
+cost-driven edge-to-cloud transitions,
+cost-driven cloud-to-edge transitions,
+failure-related transitions,
+primary failures,
+fallback attempts,
+successful fallback recoveries,
+and final failures.
+
+No additional experimental runs will be added based on the
+observed final results.
